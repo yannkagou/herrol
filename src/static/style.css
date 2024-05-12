@@ -2,3 +2,34 @@
     margin: 0;
     background-color: white;
 }
+
+body {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #555;
+}
+
+.container {
+    flex: 1;
+    margin: 0;
+}
+.sidebar a {
+  display: block;
+  background-color: #555;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:active {
+  color: #04AA6D;
+}
+
+.sidebar a:hover{
+  background-color: #555;
+  color: #04AA6D;
+}

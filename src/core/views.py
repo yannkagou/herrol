@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+def home_view(request):
+    hello = "Hello World, I'm Herrol"
+    return render(request, 'core/index.html', {'hello': hello})

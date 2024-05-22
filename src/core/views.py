@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404, render, redirect
-from django.contrib.auth.decorators import login_required
+# from django.contrib.auth.decorators import login_required
 from .forms import ImportedFileForm, ReportForm
 from .models import ImportedFile, Report
 import pandas as pd
@@ -110,17 +110,23 @@ def home(request):
                 plt.xlabel("Type d'Opération")
                 plt.ylabel("Nombre de connexions")
                 plt.title("Nombre de connexions par Type d'Opération")
-                image_path = os.path.join('media', 'reports', 'images', f'{form.cleaned_data["name"]}.png')
+                image_dir = os.path.join('media', 'reports', 'images')
+                image_dir_media = os.path.join('reports', 'images')
+                os.makedirs(image_dir, exist_ok=True)
+                os.makedirs(image_dir_media, exist_ok=True)
+                image_path = os.path.join(image_dir, f'{form.cleaned_data["name"]}.png')
+                image_path_media = os.path.join(image_dir_media, f'{form.cleaned_data["name"]}.png')
                 plt.savefig(image_path)
                 plt.close()
 
                 # Enregistrement du rapport
                 report = form.save(commit=False)
-                report.image = image_path
+                report.image = image_path_media
                 report.save()
 
                 # Génération du PDF
                 pdf_path = os.path.join('media', 'reports', f'{report.name}.pdf')
+                pdf_path_media = os.path.join('reports', f'{report.name}.pdf')
                 pdf_response = HttpResponse(content_type='application/pdf')
                 pdf_content = render_to_string('core/report_template.html', {'report': report})
                 pisa.CreatePDF(
@@ -129,10 +135,10 @@ def home(request):
                 )
                 with open(pdf_path, 'wb') as pdf_file:
                     pdf_file.write(pdf_response.content)
-                report.file = pdf_path
+                report.file = pdf_path_media
                 report.save()
 
-                return redirect('reports')
+                return redirect('core:reports')
     else:
         form = ReportForm()
     imported_files = ImportedFile.objects.all()
@@ -144,6 +150,6 @@ def reports(request):
     return render(request, 'core/reports.html', {'reports': reports})
 
 # @login_required
-def report_detail(request, report_id):
+def report_details(request, report_id):
     report = Report.objects.get(id=report_id)
     return render(request, 'core/report_details.html', {'report': report})

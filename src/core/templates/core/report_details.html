@@ -6,5 +6,5 @@
     <p>Date: {{ report.generated_at }}</p>
     <img src="{{ report.image.url }}" alt="Report Image">
     <a href="{{ report.file.url }}">Download PDF</a>
-    <a href="{% url 'reports' %}">Back to Reports</a>
+    <a href="{% url 'core:reports' %}">Back to Reports</a>
 {% endblock content %}

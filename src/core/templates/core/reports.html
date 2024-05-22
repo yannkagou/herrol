@@ -5,7 +5,7 @@
     <ul>
         {% for report in reports %}
             <li>
-                <a href="{% url 'report_detail' report.id %}">{{ report.name }}</a> - {{ report.generated_at }}
+                <a href="{% url 'core:report_details' report.id %}">{{ report.name }}</a> - {{ report.generated_at }}
             </li>
         {% endfor %}
     </ul>

@@ -1,0 +1,852 @@
+Apr  7 00:00:43 dmz-ds1 slapd[1277]: conn=1690 fd=17 ACCEPT from IP=66.240.192.138:60372 (IP=0.0.0.0:389)
+Apr  7 00:00:43 dmz-ds1 slapd[1277]: conn=1690 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 00:00:43 dmz-ds1 slapd[1277]: conn=1690 op=0 SRCH attr=1.1 configurationNamingContext currentTime defaultNamingContext dnsHostName domainFunctionality dsServiceName forestFunctionality highestCommittedUSN isGlobalCatalogReady isSynchronized ldap-get-baseobject ldapServiceName namingContexts rootDomainNamingContext schemaNamingContext serverName subschemaSubentry supportedCapabilities supportedControl supportedLDAPPolicies supportedLDAPVersion supportedSASLMechanisms altServer supportedExtension
+Apr  7 00:00:43 dmz-ds1 slapd[1277]: conn=1690 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000020 etime=0.000583 nentries=1 text=
+Apr  7 00:00:47 dmz-ds1 slapd[1277]: conn=1690 fd=17 closed (connection lost)
+Apr  7 01:35:54 dmz-ds1 slapd[1277]: conn=1691 fd=17 ACCEPT from IP=167.94.146.57:45180 (IP=0.0.0.0:636)
+Apr  7 01:35:54 dmz-ds1 slapd[1277]: conn=1691 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr  7 01:35:54 dmz-ds1 slapd[1277]: conn=1691 op=0 BIND dn="" method=128
+Apr  7 01:35:54 dmz-ds1 slapd[1277]: conn=1691 op=0 RESULT tag=97 err=0 qtime=0.000036 etime=0.000247 text=
+Apr  7 01:35:55 dmz-ds1 slapd[1277]: conn=1691 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 01:35:55 dmz-ds1 slapd[1277]: conn=1691 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000045 etime=0.000485 nentries=1 text=
+Apr  7 01:35:56 dmz-ds1 slapd[1277]: conn=1691 fd=17 closed (connection lost)
+Apr  7 01:35:59 dmz-ds1 slapd[1277]: conn=1692 fd=17 ACCEPT from IP=167.94.146.57:58968 (IP=0.0.0.0:636)
+Apr  7 01:36:00 dmz-ds1 slapd[1277]: conn=1692 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.2 tls_cipher=CHACHA20-POLY1305
+Apr  7 01:36:01 dmz-ds1 slapd[1277]: conn=1692 fd=17 closed (connection lost)
+Apr  7 01:36:03 dmz-ds1 slapd[1277]: conn=1693 fd=17 ACCEPT from IP=167.94.146.57:48890 (IP=0.0.0.0:636)
+Apr  7 01:36:05 dmz-ds1 slapd[1277]: conn=1693 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.1 tls_cipher=AES-128-CBC
+Apr  7 01:36:05 dmz-ds1 slapd[1277]: conn=1693 fd=17 closed (connection lost)
+Apr  7 01:36:07 dmz-ds1 slapd[1277]: conn=1694 fd=17 ACCEPT from IP=167.94.146.57:55972 (IP=0.0.0.0:636)
+Apr  7 01:36:07 dmz-ds1 slapd[1277]: conn=1694 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.0 tls_cipher=AES-128-CBC
+Apr  7 01:36:08 dmz-ds1 slapd[1277]: conn=1694 fd=17 closed (connection lost)
+Apr  7 01:36:09 dmz-ds1 slapd[1277]: conn=1695 fd=17 ACCEPT from IP=167.94.146.57:45810 (IP=0.0.0.0:636)
+Apr  7 01:36:09 dmz-ds1 slapd[1277]: conn=1695 fd=17 closed (TLS negotiation failure)
+Apr  7 02:15:46 dmz-ds1 slapd[1277]: conn=1696 fd=17 ACCEPT from IP=198.235.24.253:51662 (IP=0.0.0.0:389)
+Apr  7 02:16:17 dmz-ds1 slapd[1277]: conn=1696 fd=17 closed (connection lost)
+Apr  7 02:42:47 dmz-ds1 slapd[1277]: conn=1697 fd=17 ACCEPT from IP=198.199.117.130:47118 (IP=0.0.0.0:636)
+Apr  7 02:42:47 dmz-ds1 slapd[1277]: conn=1697 fd=17 closed (TLS negotiation failure)
+Apr  7 03:46:26 dmz-ds1 slapd[1277]: conn=1698 fd=17 ACCEPT from IP=167.94.145.51:51096 (IP=0.0.0.0:389)
+Apr  7 03:46:26 dmz-ds1 slapd[1277]: conn=1698 op=0 BIND dn="" method=128
+Apr  7 03:46:26 dmz-ds1 slapd[1277]: conn=1698 op=0 RESULT tag=97 err=0 qtime=0.000040 etime=0.000187 text=
+Apr  7 03:46:26 dmz-ds1 slapd[1277]: conn=1698 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 03:46:26 dmz-ds1 slapd[1277]: conn=1698 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000471 nentries=1 text=
+Apr  7 03:46:27 dmz-ds1 slapd[1277]: conn=1698 fd=17 closed (connection lost)
+Apr  7 04:45:27 dmz-ds1 slapd[1277]: conn=1699 fd=17 ACCEPT from IP=80.66.88.211:65241 (IP=0.0.0.0:636)
+Apr  7 04:45:27 dmz-ds1 slapd[1277]: conn=1699 fd=17 closed (TLS negotiation failure)
+Apr  7 05:39:52 dmz-ds1 slapd[1277]: conn=1700 fd=17 ACCEPT from IP=206.168.34.39:51478 (IP=0.0.0.0:389)
+Apr  7 05:39:52 dmz-ds1 slapd[1277]: conn=1700 op=0 BIND dn="" method=128
+Apr  7 05:39:52 dmz-ds1 slapd[1277]: conn=1700 op=0 RESULT tag=97 err=0 qtime=0.000054 etime=0.000211 text=
+Apr  7 05:39:52 dmz-ds1 slapd[1277]: conn=1700 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 05:39:52 dmz-ds1 slapd[1277]: conn=1700 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000647 nentries=1 text=
+Apr  7 05:39:52 dmz-ds1 slapd[1277]: conn=1700 fd=17 closed (connection lost)
+Apr  7 09:54:41 dmz-ds1 slapd[1277]: conn=1701 fd=17 ACCEPT from IP=154.126.168.243:54910 (IP=0.0.0.0:389)
+Apr  7 09:54:41 dmz-ds1 slapd[1277]: conn=1701 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 09:54:41 dmz-ds1 slapd[1277]: conn=1701 op=0 SRCH attr=authorityRevocationList
+Apr  7 09:54:41 dmz-ds1 slapd[1277]: conn=1701 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000829 nentries=1 text=
+Apr  7 09:54:41 dmz-ds1 slapd[1277]: conn=1701 op=1 UNBIND
+Apr  7 09:54:41 dmz-ds1 slapd[1277]: conn=1701 fd=17 closed
+Apr  7 10:37:41 dmz-ds1 slapd[1277]: conn=1702 fd=17 ACCEPT from IP=205.210.31.71:64254 (IP=0.0.0.0:389)
+Apr  7 10:37:41 dmz-ds1 slapd[1277]: conn=1702 op=0 BIND dn="" method=128
+Apr  7 10:37:41 dmz-ds1 slapd[1277]: conn=1702 op=0 RESULT tag=97 err=0 qtime=0.000045 etime=0.000203 text=
+Apr  7 10:37:41 dmz-ds1 slapd[1277]: conn=1702 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 10:37:41 dmz-ds1 slapd[1277]: conn=1702 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000043 etime=0.000478 nentries=1 text=
+Apr  7 10:37:42 dmz-ds1 slapd[1277]: conn=1702 fd=17 closed (connection lost)
+Apr  7 13:05:03 dmz-ds1 slapd[1277]: conn=1703 fd=17 ACCEPT from IP=167.94.138.33:55462 (IP=0.0.0.0:636)
+Apr  7 13:05:04 dmz-ds1 slapd[1277]: conn=1704 fd=18 ACCEPT from IP=80.66.88.211:65514 (IP=0.0.0.0:389)
+Apr  7 13:05:04 dmz-ds1 slapd[1277]: conn=1704 fd=18 closed (connection lost)
+Apr  7 13:05:05 dmz-ds1 slapd[1277]: conn=1703 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr  7 13:05:07 dmz-ds1 slapd[1277]: conn=1703 op=0 BIND dn="" method=128
+Apr  7 13:05:07 dmz-ds1 slapd[1277]: conn=1703 op=0 RESULT tag=97 err=0 qtime=0.000085 etime=0.000542 text=
+Apr  7 13:05:07 dmz-ds1 slapd[1277]: conn=1703 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 13:05:07 dmz-ds1 slapd[1277]: conn=1703 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000047 etime=0.000570 nentries=1 text=
+Apr  7 13:05:08 dmz-ds1 slapd[1277]: conn=1703 fd=17 closed (connection lost)
+Apr  7 13:05:10 dmz-ds1 slapd[1277]: conn=1705 fd=17 ACCEPT from IP=167.94.138.33:46684 (IP=0.0.0.0:636)
+Apr  7 13:05:11 dmz-ds1 slapd[1277]: conn=1705 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.2 tls_cipher=CHACHA20-POLY1305
+Apr  7 13:05:12 dmz-ds1 slapd[1277]: conn=1705 fd=17 closed (connection lost)
+Apr  7 13:05:13 dmz-ds1 slapd[1277]: conn=1706 fd=17 ACCEPT from IP=167.94.138.33:55238 (IP=0.0.0.0:636)
+Apr  7 13:05:16 dmz-ds1 slapd[1277]: conn=1706 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.1 tls_cipher=AES-128-CBC
+Apr  7 13:05:17 dmz-ds1 slapd[1277]: conn=1706 fd=17 closed (connection lost)
+Apr  7 13:05:20 dmz-ds1 slapd[1277]: conn=1707 fd=17 ACCEPT from IP=167.94.138.33:46646 (IP=0.0.0.0:636)
+Apr  7 13:05:24 dmz-ds1 slapd[1277]: conn=1707 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.0 tls_cipher=AES-128-CBC
+Apr  7 13:05:25 dmz-ds1 slapd[1277]: conn=1707 fd=17 closed (connection lost)
+Apr  7 13:05:26 dmz-ds1 slapd[1277]: conn=1708 fd=17 ACCEPT from IP=167.94.138.33:42156 (IP=0.0.0.0:636)
+Apr  7 13:05:26 dmz-ds1 slapd[1277]: conn=1708 fd=17 closed (TLS negotiation failure)
+Apr  7 13:47:32 dmz-ds1 slapd[1277]: conn=1709 fd=17 ACCEPT from IP=100.36.67.73:50749 (IP=0.0.0.0:389)
+Apr  7 13:47:32 dmz-ds1 slapd[1277]: conn=1709 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 13:47:32 dmz-ds1 slapd[1277]: conn=1709 op=0 SRCH attr=authorityRevocationList
+Apr  7 13:47:32 dmz-ds1 slapd[1277]: conn=1709 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000079 etime=0.000708 nentries=1 text=
+Apr  7 13:47:32 dmz-ds1 slapd[1277]: conn=1709 op=1 UNBIND
+Apr  7 13:47:32 dmz-ds1 slapd[1277]: conn=1709 fd=17 closed
+Apr  7 14:21:21 dmz-ds1 slapd[1277]: conn=1710 fd=17 ACCEPT from IP=162.142.125.216:44940 (IP=0.0.0.0:636)
+Apr  7 14:21:24 dmz-ds1 slapd[1277]: conn=1710 fd=17 closed (TLS negotiation failure)
+Apr  7 14:21:24 dmz-ds1 slapd[1277]: conn=1711 fd=17 ACCEPT from IP=162.142.125.216:42570 (IP=0.0.0.0:636)
+Apr  7 14:21:24 dmz-ds1 slapd[1277]: conn=1711 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr  7 14:21:35 dmz-ds1 slapd[1277]: conn=1711 fd=17 closed (connection lost)
+Apr  7 14:21:36 dmz-ds1 slapd[1277]: conn=1712 fd=17 ACCEPT from IP=162.142.125.216:38840 (IP=0.0.0.0:636)
+Apr  7 14:21:36 dmz-ds1 slapd[1277]: conn=1712 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr  7 14:21:37 dmz-ds1 slapd[1277]: conn=1712 fd=17 closed (connection lost)
+Apr  7 14:21:38 dmz-ds1 slapd[1277]: conn=1713 fd=17 ACCEPT from IP=162.142.125.216:34770 (IP=0.0.0.0:636)
+Apr  7 14:21:41 dmz-ds1 slapd[1277]: conn=1713 fd=17 closed (TLS negotiation failure)
+Apr  7 14:21:42 dmz-ds1 slapd[1277]: conn=1714 fd=17 ACCEPT from IP=162.142.125.216:57216 (IP=0.0.0.0:636)
+Apr  7 14:21:46 dmz-ds1 slapd[1277]: conn=1715 fd=18 ACCEPT from IP=162.142.125.216:46636 (IP=0.0.0.0:636)
+Apr  7 14:21:47 dmz-ds1 slapd[1277]: conn=1715 fd=18 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.2 tls_cipher=CHACHA20-POLY1305
+Apr  7 14:21:47 dmz-ds1 slapd[1277]: conn=1715 fd=18 closed (connection lost)
+Apr  7 14:21:49 dmz-ds1 slapd[1277]: conn=1716 fd=18 ACCEPT from IP=162.142.125.216:49130 (IP=0.0.0.0:636)
+Apr  7 14:21:50 dmz-ds1 slapd[1277]: conn=1716 fd=18 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.1 tls_cipher=AES-128-CBC
+Apr  7 14:21:50 dmz-ds1 slapd[1277]: conn=1716 fd=18 closed (connection lost)
+Apr  7 14:33:57 dmz-ds1 slapd[1277]: conn=1717 fd=18 ACCEPT from IP=213.189.173.74:49989 (IP=0.0.0.0:389)
+Apr  7 14:33:57 dmz-ds1 slapd[1277]: conn=1717 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 14:33:57 dmz-ds1 slapd[1277]: conn=1717 op=0 SRCH attr=authorityRevocationList
+Apr  7 14:33:57 dmz-ds1 slapd[1277]: conn=1717 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000024 etime=0.000385 nentries=1 text=
+Apr  7 14:33:58 dmz-ds1 slapd[1277]: conn=1717 op=1 UNBIND
+Apr  7 14:33:58 dmz-ds1 slapd[1277]: conn=1717 fd=18 closed
+Apr  7 16:05:37 dmz-ds1 slapd[1277]: conn=1718 fd=18 ACCEPT from IP=64.62.156.66:37454 (IP=0.0.0.0:636)
+Apr  7 16:05:37 dmz-ds1 slapd[1277]: conn=1718 fd=18 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr  7 16:05:37 dmz-ds1 slapd[1277]: conn=1718 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 16:05:37 dmz-ds1 slapd[1277]: conn=1718 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000730 nentries=1 text=
+Apr  7 16:05:37 dmz-ds1 slapd[1277]: conn=1718 fd=18 closed (connection lost)
+Apr  7 16:23:28 dmz-ds1 slapd[1277]: conn=1714 fd=17 closed (TLS negotiation failure)
+Apr  7 17:15:36 dmz-ds1 slapd[1277]: conn=1719 fd=17 ACCEPT from IP=64.62.156.66:49400 (IP=0.0.0.0:389)
+Apr  7 17:15:36 dmz-ds1 slapd[1277]: conn=1719 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 17:15:36 dmz-ds1 slapd[1277]: conn=1719 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000021 etime=0.000268 nentries=1 text=
+Apr  7 17:15:36 dmz-ds1 slapd[1277]: conn=1719 fd=17 closed (connection lost)
+Apr  7 19:03:17 dmz-ds1 slapd[1277]: conn=1720 fd=17 ACCEPT from IP=192.241.214.13:40364 (IP=0.0.0.0:636)
+Apr  7 19:03:18 dmz-ds1 slapd[1277]: conn=1720 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr  7 19:03:18 dmz-ds1 slapd[1277]: conn=1720 fd=17 closed (connection lost)
+Apr  7 20:34:49 dmz-ds1 slapd[1277]: conn=1721 fd=17 ACCEPT from IP=162.243.149.6:34080 (IP=0.0.0.0:636)
+Apr  7 20:34:50 dmz-ds1 slapd[1277]: conn=1721 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr  7 20:34:50 dmz-ds1 slapd[1277]: conn=1721 fd=17 closed (connection lost)
+Apr  7 20:48:32 dmz-ds1 slapd[1277]: conn=1722 fd=17 ACCEPT from IP=167.94.146.51:43676 (IP=0.0.0.0:389)
+Apr  7 20:48:32 dmz-ds1 slapd[1277]: conn=1722 op=0 BIND dn="" method=128
+Apr  7 20:48:32 dmz-ds1 slapd[1277]: conn=1722 op=0 RESULT tag=97 err=0 qtime=0.000025 etime=0.000195 text=
+Apr  7 20:48:32 dmz-ds1 slapd[1277]: conn=1722 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 20:48:32 dmz-ds1 slapd[1277]: conn=1722 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000061 etime=0.000410 nentries=1 text=
+Apr  7 20:48:32 dmz-ds1 slapd[1277]: conn=1722 fd=17 closed (connection lost)
+Apr  7 23:01:29 dmz-ds1 slapd[1277]: conn=1723 fd=17 ACCEPT from IP=154.72.150.101:62695 (IP=0.0.0.0:389)
+Apr  7 23:01:29 dmz-ds1 slapd[1277]: conn=1723 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 23:01:29 dmz-ds1 slapd[1277]: conn=1723 op=0 SRCH attr=authorityRevocationList
+Apr  7 23:01:29 dmz-ds1 slapd[1277]: conn=1723 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000566 nentries=1 text=
+Apr  7 23:01:29 dmz-ds1 slapd[1277]: conn=1723 op=1 UNBIND
+Apr  7 23:01:29 dmz-ds1 slapd[1277]: conn=1723 fd=17 closed
+Apr  7 23:01:40 dmz-ds1 slapd[1277]: conn=1724 fd=17 ACCEPT from IP=154.72.150.101:62696 (IP=0.0.0.0:389)
+Apr  7 23:01:40 dmz-ds1 slapd[1277]: conn=1724 op=0 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  7 23:01:40 dmz-ds1 slapd[1277]: conn=1724 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000039 etime=0.000416 nentries=1 text=
+Apr  7 23:01:40 dmz-ds1 slapd[1277]: conn=1724 op=1 UNBIND
+Apr  7 23:01:40 dmz-ds1 slapd[1277]: conn=1724 fd=17 closed
+Apr  7 23:57:05 dmz-ds1 slapd[1277]: conn=1725 fd=17 ACCEPT from IP=162.216.150.70:65222 (IP=0.0.0.0:636)
+Apr  7 23:57:05 dmz-ds1 slapd[1277]: conn=1725 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.3 tls_cipher=AES-128-GCM
+Apr  7 23:57:05 dmz-ds1 slapd[1277]: conn=1725 fd=17 closed (connection lost)
+Apr  8 00:56:38 dmz-ds1 slapd[1277]: conn=1726 fd=17 ACCEPT from IP=199.45.154.22:47732 (IP=0.0.0.0:389)
+Apr  8 00:56:39 dmz-ds1 slapd[1277]: conn=1726 op=0 BIND dn="" method=128
+Apr  8 00:56:39 dmz-ds1 slapd[1277]: conn=1726 op=0 RESULT tag=97 err=0 qtime=0.000049 etime=0.000411 text=
+Apr  8 00:56:40 dmz-ds1 slapd[1277]: conn=1726 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 00:56:40 dmz-ds1 slapd[1277]: conn=1726 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000044 etime=0.000461 nentries=1 text=
+Apr  8 00:56:45 dmz-ds1 slapd[1277]: conn=1726 fd=17 closed (connection lost)
+Apr  8 01:29:34 dmz-ds1 slapd[1277]: conn=1727 fd=17 ACCEPT from IP=205.210.31.171:62884 (IP=0.0.0.0:636)
+Apr  8 01:29:34 dmz-ds1 slapd[1277]: conn=1727 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.3 tls_cipher=AES-128-GCM
+Apr  8 01:29:34 dmz-ds1 slapd[1277]: conn=1727 op=0 BIND dn="" method=128
+Apr  8 01:29:34 dmz-ds1 slapd[1277]: conn=1727 op=0 RESULT tag=97 err=0 qtime=0.000031 etime=0.000173 text=
+Apr  8 01:29:34 dmz-ds1 slapd[1277]: conn=1727 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 01:29:34 dmz-ds1 slapd[1277]: conn=1727 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000044 etime=0.000452 nentries=1 text=
+Apr  8 01:29:34 dmz-ds1 slapd[1277]: conn=1727 fd=17 closed (connection lost)
+Apr  8 03:01:12 dmz-ds1 slapd[1277]: conn=1728 fd=17 ACCEPT from IP=167.94.138.52:39660 (IP=0.0.0.0:389)
+Apr  8 03:01:12 dmz-ds1 slapd[1277]: conn=1728 op=0 BIND dn="" method=128
+Apr  8 03:01:12 dmz-ds1 slapd[1277]: conn=1728 op=0 RESULT tag=97 err=0 qtime=0.000043 etime=0.000221 text=
+Apr  8 03:01:13 dmz-ds1 slapd[1277]: conn=1728 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 03:01:13 dmz-ds1 slapd[1277]: conn=1728 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000039 etime=0.000383 nentries=1 text=
+Apr  8 03:01:13 dmz-ds1 slapd[1277]: conn=1728 fd=17 closed (connection lost)
+Apr  8 03:41:56 dmz-ds1 slapd[1277]: conn=1729 fd=17 ACCEPT from IP=205.210.31.157:59754 (IP=0.0.0.0:636)
+Apr  8 03:41:56 dmz-ds1 slapd[1277]: conn=1729 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.3 tls_cipher=AES-128-GCM
+Apr  8 03:41:56 dmz-ds1 slapd[1277]: conn=1729 fd=17 closed (connection lost)
+Apr  8 04:29:39 dmz-ds1 slapd[1277]: conn=1730 fd=17 ACCEPT from IP=172.104.242.173:54599 (IP=0.0.0.0:389)
+Apr  8 04:29:39 dmz-ds1 slapd[1277]: conn=1730 fd=17 closed (connection lost)
+Apr  8 05:14:56 dmz-ds1 slapd[1277]: conn=1731 fd=17 ACCEPT from IP=205.210.31.138:58710 (IP=0.0.0.0:389)
+Apr  8 05:14:56 dmz-ds1 slapd[1277]: conn=1731 op=0 BIND dn="" method=128
+Apr  8 05:14:56 dmz-ds1 slapd[1277]: conn=1731 op=0 RESULT tag=97 err=0 qtime=0.000058 etime=0.000315 text=
+Apr  8 05:14:56 dmz-ds1 slapd[1277]: conn=1731 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 05:14:56 dmz-ds1 slapd[1277]: conn=1731 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000404 nentries=1 text=
+Apr  8 05:14:56 dmz-ds1 slapd[1277]: conn=1731 fd=17 closed (connection lost)
+Apr  8 06:44:14 dmz-ds1 slapd[1277]: conn=1732 fd=17 ACCEPT from IP=205.210.31.249:49360 (IP=0.0.0.0:389)
+Apr  8 06:44:45 dmz-ds1 slapd[1277]: conn=1732 fd=17 closed (connection lost)
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 fd=17 ACCEPT from IP=154.72.161.239:11512 (IP=0.0.0.0:389)
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=0 BIND dn="" method=128
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=0 RESULT tag=97 err=0 qtime=0.000024 etime=0.000166 text=
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=1 SRCH base="c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=1 SRCH attr=objectclass
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000597 nentries=2 text=
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=2 SRCH base="c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000039 etime=0.000274 nentries=1 text=
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=3 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=3 SRCH attr=subschemaSubentry
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000045 etime=0.000411 nentries=1 text=
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=4 SRCH base="cn=Subschema" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 06:57:51 dmz-ds1 slapd[1277]: conn=1733 op=4 SRCH attr=ldapSyntaxes attributeTypes objectclasses matchingRules matchingRuleUse
+Apr  8 06:57:52 dmz-ds1 slapd[1277]: conn=1733 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000041 etime=1.416365 nentries=1 text=
+Apr  8 06:58:08 dmz-ds1 slapd[1277]: conn=1733 op=5 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 06:58:08 dmz-ds1 slapd[1277]: conn=1733 op=5 SRCH attr=objectclass
+Apr  8 06:58:08 dmz-ds1 slapd[1277]: conn=1733 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000073 etime=0.000481 nentries=1 text=
+Apr  8 06:58:10 dmz-ds1 slapd[1277]: conn=1733 op=6 SRCH base="o=ANTIC,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 06:58:10 dmz-ds1 slapd[1277]: conn=1733 op=6 SRCH attr=objectclass
+Apr  8 06:58:10 dmz-ds1 slapd[1277]: conn=1733 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000032 etime=0.000354 nentries=1 text=
+Apr  8 06:58:13 dmz-ds1 slapd[1277]: conn=1733 op=7 SRCH base="ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 06:58:13 dmz-ds1 slapd[1277]: conn=1733 op=7 SRCH attr=objectclass
+Apr  8 06:58:13 dmz-ds1 slapd[1277]: conn=1733 op=7 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000417 nentries=1 text=
+Apr  8 06:58:14 dmz-ds1 slapd[1277]: conn=1733 op=8 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 06:58:14 dmz-ds1 slapd[1277]: conn=1733 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000044 etime=0.000413 nentries=1 text=
+Apr  8 06:58:24 dmz-ds1 slapd[1277]: conn=1733 op=9 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 06:58:24 dmz-ds1 slapd[1277]: conn=1733 op=9 SRCH attr=objectclass
+Apr  8 06:58:24 dmz-ds1 slapd[1277]: conn=1733 op=9 SEARCH RESULT tag=101 err=0 qtime=0.000049 etime=0.000621 nentries=2 text=
+Apr  8 06:58:25 dmz-ds1 slapd[1277]: conn=1733 op=10 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 06:58:25 dmz-ds1 slapd[1277]: conn=1733 op=10 SRCH attr=objectclass
+Apr  8 06:58:25 dmz-ds1 slapd[1277]: conn=1733 op=10 SEARCH RESULT tag=101 err=0 qtime=0.000052 etime=0.000471 nentries=5 text=
+Apr  8 06:58:26 dmz-ds1 slapd[1277]: conn=1733 op=11 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 06:58:26 dmz-ds1 slapd[1277]: conn=1733 op=11 SEARCH RESULT tag=101 err=0 qtime=0.000044 etime=0.000326 nentries=1 text=
+Apr  8 06:58:31 dmz-ds1 slapd[1277]: conn=1733 op=12 UNBIND
+Apr  8 06:58:31 dmz-ds1 slapd[1277]: conn=1733 fd=17 closed
+Apr  8 07:47:55 dmz-ds1 slapd[1277]: conn=1734 fd=17 ACCEPT from IP=194.165.16.73:65287 (IP=0.0.0.0:636)
+Apr  8 07:47:55 dmz-ds1 slapd[1277]: conn=1734 fd=17 closed (TLS negotiation failure)
+Apr  8 08:22:49 dmz-ds1 slapd[1277]: conn=1735 fd=17 ACCEPT from IP=154.72.160.92:3229 (IP=0.0.0.0:389)
+Apr  8 08:22:49 dmz-ds1 slapd[1277]: conn=1735 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 08:22:49 dmz-ds1 slapd[1277]: conn=1735 op=0 SRCH attr=authorityRevocationList
+Apr  8 08:22:49 dmz-ds1 slapd[1277]: conn=1735 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000026 etime=0.000567 nentries=1 text=
+Apr  8 08:22:50 dmz-ds1 slapd[1277]: conn=1735 op=1 UNBIND
+Apr  8 08:22:50 dmz-ds1 slapd[1277]: conn=1735 fd=17 closed
+Apr  8 08:23:39 dmz-ds1 slapd[1277]: conn=1736 fd=17 closed (connection lost)
+Apr  8 08:23:39 dmz-ds1 slapd[1277]: conn=1736 fd=17 ACCEPT from IP=198.199.101.67:48218 (IP=0.0.0.0:389)
+Apr  8 11:02:39 dmz-ds1 slapd[1277]: conn=1737 fd=17 ACCEPT from IP=154.72.170.139:41172 (IP=0.0.0.0:389)
+Apr  8 11:02:39 dmz-ds1 slapd[1277]: conn=1737 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 11:02:39 dmz-ds1 slapd[1277]: conn=1737 op=0 SRCH attr=authorityRevocationList
+Apr  8 11:02:39 dmz-ds1 slapd[1277]: conn=1737 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000448 nentries=1 text=
+Apr  8 11:02:39 dmz-ds1 slapd[1277]: conn=1737 op=1 UNBIND
+Apr  8 11:02:39 dmz-ds1 slapd[1277]: conn=1737 fd=17 closed
+Apr  8 11:58:47 dmz-ds1 slapd[1277]: conn=1738 fd=17 ACCEPT from IP=167.94.138.34:46366 (IP=0.0.0.0:389)
+Apr  8 11:58:47 dmz-ds1 slapd[1277]: conn=1738 op=0 BIND dn="" method=128
+Apr  8 11:58:47 dmz-ds1 slapd[1277]: conn=1738 op=0 RESULT tag=97 err=0 qtime=0.000039 etime=0.000244 text=
+Apr  8 11:58:48 dmz-ds1 slapd[1277]: conn=1738 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 11:58:48 dmz-ds1 slapd[1277]: conn=1738 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000038 etime=0.000542 nentries=1 text=
+Apr  8 11:58:48 dmz-ds1 slapd[1277]: conn=1738 fd=17 closed (connection lost)
+Apr  8 12:02:48 dmz-ds1 slapd[1277]: conn=1739 fd=17 ACCEPT from IP=87.236.176.202:58827 (IP=0.0.0.0:389)
+Apr  8 12:02:51 dmz-ds1 slapd[1277]: conn=1739 op=0 BIND dn="" method=128
+Apr  8 12:02:51 dmz-ds1 slapd[1277]: conn=1739 op=0 RESULT tag=97 err=0 qtime=0.000044 etime=0.000313 text=
+Apr  8 12:02:51 dmz-ds1 slapd[1277]: conn=1739 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 12:02:51 dmz-ds1 slapd[1277]: conn=1739 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000022 etime=0.000468 nentries=1 text=
+Apr  8 12:02:52 dmz-ds1 slapd[1277]: conn=1739 op=2 UNBIND
+Apr  8 12:02:52 dmz-ds1 slapd[1277]: conn=1739 fd=17 closed
+Apr  8 12:02:52 dmz-ds1 slapd[1277]: conn=1740 fd=17 ACCEPT from IP=87.236.176.202:51035 (IP=0.0.0.0:389)
+Apr  8 12:02:52 dmz-ds1 slapd[1277]: conn=1740 op=0 EXT oid=1.3.6.1.4.1.1466.20037
+Apr  8 12:02:52 dmz-ds1 slapd[1277]: conn=1740 op=0 STARTTLS
+Apr  8 12:02:52 dmz-ds1 slapd[1277]: conn=1740 op=0 RESULT oid= err=0 qtime=0.000018 etime=0.000135 text=
+Apr  8 12:02:52 dmz-ds1 slapd[1277]: conn=1740 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.3 tls_cipher=AES-128-GCM
+Apr  8 12:02:52 dmz-ds1 slapd[1277]: conn=1740 fd=17 closed (connection lost)
+Apr  8 12:47:28 dmz-ds1 slapd[1277]: conn=1741 fd=17 ACCEPT from IP=154.72.169.43:42279 (IP=0.0.0.0:389)
+Apr  8 12:47:28 dmz-ds1 slapd[1277]: conn=1741 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 12:47:28 dmz-ds1 slapd[1277]: conn=1741 op=0 SRCH attr=authorityRevocationList
+Apr  8 12:47:28 dmz-ds1 slapd[1277]: conn=1741 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000015 etime=0.000743 nentries=1 text=
+Apr  8 12:47:28 dmz-ds1 slapd[1277]: conn=1741 op=1 UNBIND
+Apr  8 12:47:28 dmz-ds1 slapd[1277]: conn=1741 fd=17 closed
+Apr  8 13:46:39 dmz-ds1 slapd[1277]: conn=1742 fd=17 ACCEPT from IP=64.62.197.122:59888 (IP=0.0.0.0:389)
+Apr  8 13:46:39 dmz-ds1 slapd[1277]: conn=1742 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 13:46:39 dmz-ds1 slapd[1277]: conn=1742 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000023 etime=0.000297 nentries=1 text=
+Apr  8 13:46:39 dmz-ds1 slapd[1277]: conn=1742 fd=17 closed (connection lost)
+Apr  8 13:58:29 dmz-ds1 slapd[1277]: conn=1743 fd=17 ACCEPT from IP=154.72.161.98:18998 (IP=0.0.0.0:389)
+Apr  8 13:58:34 dmz-ds1 slapd[1277]: conn=1743 fd=17 closed (connection lost)
+Apr  8 14:48:42 dmz-ds1 slapd[1277]: conn=1744 fd=17 ACCEPT from IP=154.72.161.98:18094 (IP=0.0.0.0:389)
+Apr  8 14:48:42 dmz-ds1 slapd[1277]: conn=1744 op=0 BIND dn="" method=128
+Apr  8 14:48:42 dmz-ds1 slapd[1277]: conn=1744 op=0 RESULT tag=97 err=0 qtime=0.000040 etime=0.000330 text=
+Apr  8 14:48:42 dmz-ds1 slapd[1277]: conn=1744 op=1 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:48:42 dmz-ds1 slapd[1277]: conn=1744 op=1 SRCH attr=subschemaSubentry
+Apr  8 14:48:42 dmz-ds1 slapd[1277]: conn=1744 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000049 etime=0.000443 nentries=1 text=
+Apr  8 14:48:42 dmz-ds1 slapd[1277]: conn=1744 op=2 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=subschema)"
+Apr  8 14:48:42 dmz-ds1 slapd[1277]: conn=1744 op=2 SRCH attr=objectClasses attributeTypes ldapSyntaxes matchingRules matchingRuleUse createTimestamp modifyTimestamp
+Apr  8 14:48:43 dmz-ds1 slapd[1277]: conn=1744 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000036 etime=0.357000 nentries=1 text=
+Apr  8 14:48:43 dmz-ds1 slapd[1277]: conn=1744 op=3 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 14:48:43 dmz-ds1 slapd[1277]: conn=1744 op=3 SRCH attr=namingContexts subschemaSubentry supportedLDAPVersion supportedSASLMechanisms supportedExtension supportedControl supportedFeatures vendorName vendorVersion + objectClass
+Apr  8 14:48:43 dmz-ds1 slapd[1277]: conn=1744 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000461 nentries=1 text=
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=4 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=4 SRCH attr=*
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000348 nentries=1 text=
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=5 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=5 SRCH attr=hasSubordinates objectClass
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.002043 nentries=1 text=
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=6 SRCH base="c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=6 SRCH attr=hasSubordinates objectClass
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000041 etime=0.000512 nentries=1 text=
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=7 SRCH base="cn=config" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=7 SRCH attr=hasSubordinates objectClass
+Apr  8 14:48:44 dmz-ds1 slapd[1277]: conn=1744 op=7 SEARCH RESULT tag=101 err=32 qtime=0.000041 etime=0.000213 nentries=0 text=
+Apr  8 14:48:57 dmz-ds1 slapd[1277]: conn=1744 op=8 SRCH base="c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:48:57 dmz-ds1 slapd[1277]: conn=1744 op=8 SRCH attr=hasSubordinates objectClass
+Apr  8 14:48:57 dmz-ds1 slapd[1277]: conn=1744 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000039 etime=0.000700 nentries=2 text=
+Apr  8 14:49:01 dmz-ds1 slapd[1277]: conn=1744 op=9 SRCH base="o=ANTIC,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:49:01 dmz-ds1 slapd[1277]: conn=1744 op=9 SRCH attr=hasSubordinates objectClass
+Apr  8 14:49:01 dmz-ds1 slapd[1277]: conn=1744 op=9 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000431 nentries=1 text=
+Apr  8 14:49:02 dmz-ds1 slapd[1277]: conn=1744 op=10 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:49:02 dmz-ds1 slapd[1277]: conn=1744 op=10 SRCH attr=hasSubordinates objectClass
+Apr  8 14:49:02 dmz-ds1 slapd[1277]: conn=1744 op=10 SEARCH RESULT tag=101 err=0 qtime=0.000041 etime=0.000371 nentries=1 text=
+Apr  8 14:49:04 dmz-ds1 slapd[1277]: conn=1744 op=11 SRCH base="ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:49:04 dmz-ds1 slapd[1277]: conn=1744 op=11 SRCH attr=hasSubordinates objectClass
+Apr  8 14:49:04 dmz-ds1 slapd[1277]: conn=1744 op=11 SEARCH RESULT tag=101 err=0 qtime=0.000041 etime=0.000421 nentries=1 text=
+Apr  8 14:49:06 dmz-ds1 slapd[1277]: conn=1744 op=12 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:49:06 dmz-ds1 slapd[1277]: conn=1744 op=12 SRCH attr=hasSubordinates objectClass
+Apr  8 14:49:06 dmz-ds1 slapd[1277]: conn=1744 op=12 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000519 nentries=2 text=
+Apr  8 14:49:12 dmz-ds1 slapd[1277]: conn=1744 op=13 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:49:12 dmz-ds1 slapd[1277]: conn=1744 op=13 SRCH attr=hasSubordinates objectClass
+Apr  8 14:49:12 dmz-ds1 slapd[1277]: conn=1744 op=13 SEARCH RESULT tag=101 err=0 qtime=0.000076 etime=0.000591 nentries=5 text=
+Apr  8 14:49:20 dmz-ds1 slapd[1277]: conn=1744 op=14 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:49:20 dmz-ds1 slapd[1277]: conn=1744 op=14 SRCH attr=*
+Apr  8 14:49:20 dmz-ds1 slapd[1277]: conn=1744 op=14 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000410 nentries=1 text=
+Apr  8 14:49:23 dmz-ds1 slapd[1277]: conn=1744 op=15 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:49:23 dmz-ds1 slapd[1277]: conn=1744 op=15 SRCH attr=*
+Apr  8 14:49:23 dmz-ds1 slapd[1277]: conn=1744 op=15 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000350 nentries=1 text=
+Apr  8 14:49:23 dmz-ds1 slapd[1277]: conn=1744 op=16 SRCH base="ou=dp3p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:49:23 dmz-ds1 slapd[1277]: conn=1744 op=16 SRCH attr=*
+Apr  8 14:49:23 dmz-ds1 slapd[1277]: conn=1744 op=16 SEARCH RESULT tag=101 err=0 qtime=0.000045 etime=0.000331 nentries=1 text=
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 fd=18 ACCEPT from IP=154.72.161.239:12298 (IP=0.0.0.0:389)
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=0 BIND dn="" method=128
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=0 RESULT tag=97 err=0 qtime=0.000041 etime=0.000192 text=
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=1 SRCH base="c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=1 SRCH attr=objectclass
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000041 etime=0.000487 nentries=2 text=
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=2 SRCH base="c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000038 etime=0.000297 nentries=1 text=
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=3 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=3 SRCH attr=subschemaSubentry
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000030 etime=0.000287 nentries=1 text=
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=4 SRCH base="cn=Subschema" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=4 SRCH attr=ldapSyntaxes attributeTypes objectclasses matchingRules matchingRuleUse
+Apr  8 14:50:10 dmz-ds1 slapd[1277]: conn=1745 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.014799 nentries=1 text=
+Apr  8 14:50:11 dmz-ds1 slapd[1277]: conn=1745 op=5 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 14:50:11 dmz-ds1 slapd[1277]: conn=1745 op=5 SRCH attr=objectclass
+Apr  8 14:50:11 dmz-ds1 slapd[1277]: conn=1745 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000373 nentries=1 text=
+Apr  8 14:50:12 dmz-ds1 slapd[1277]: conn=1745 op=6 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 14:50:12 dmz-ds1 slapd[1277]: conn=1745 op=6 SRCH attr=objectclass
+Apr  8 14:50:12 dmz-ds1 slapd[1277]: conn=1745 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000387 nentries=2 text=
+Apr  8 14:50:13 dmz-ds1 slapd[1277]: conn=1745 op=7 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  8 14:50:13 dmz-ds1 slapd[1277]: conn=1745 op=7 SRCH attr=objectclass
+Apr  8 14:50:13 dmz-ds1 slapd[1277]: conn=1745 op=7 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000442 nentries=5 text=
+Apr  8 14:50:14 dmz-ds1 slapd[1277]: conn=1745 op=8 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 14:50:14 dmz-ds1 slapd[1277]: conn=1745 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000026 etime=0.000384 nentries=1 text=
+Apr  8 14:51:11 dmz-ds1 slapd[1277]: conn=1745 op=9 UNBIND
+Apr  8 14:51:11 dmz-ds1 slapd[1277]: conn=1745 fd=18 closed
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 fd=18 ACCEPT from IP=154.72.161.98:18272 (IP=0.0.0.0:389)
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=0 BIND dn="" method=128
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=0 RESULT tag=97 err=0 qtime=0.000052 etime=0.000258 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=1 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=1 SRCH attr=subschemaSubentry
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000051 etime=0.000785 nentries=1 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=2 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=subschema)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=2 SRCH attr=createTimestamp modifyTimestamp
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000038 etime=0.002566 nentries=1 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=3 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=3 SRCH attr=namingContexts subschemaSubentry supportedLDAPVersion supportedSASLMechanisms supportedExtension supportedControl supportedFeatures vendorName vendorVersion + objectClass
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000043 etime=0.000572 nentries=1 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=4 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=4 SRCH attr=*
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000029 etime=0.000277 nentries=1 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=5 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=5 SRCH attr=hasSubordinates objectClass
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.002079 nentries=1 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=6 SRCH base="c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=6 SRCH attr=hasSubordinates objectClass
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000028 etime=0.000435 nentries=1 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=7 SRCH base="cn=config" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=7 SRCH attr=hasSubordinates objectClass
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=7 SEARCH RESULT tag=101 err=32 qtime=0.000047 etime=0.000275 nentries=0 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=8 SRCH base="ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=8 SRCH attr=*
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000034 etime=0.000281 nentries=1 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=9 SRCH base="c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=9 SRCH attr=hasSubordinates objectClass
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=9 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000353 nentries=2 text=
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=10 SRCH base="o=ANTIC,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=10 SRCH attr=*
+Apr  8 14:56:46 dmz-ds1 slapd[1277]: conn=1746 op=10 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000297 nentries=1 text=
+Apr  8 14:56:50 dmz-ds1 slapd[1277]: conn=1746 op=11 SRCH base="o=ANTIC,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:50 dmz-ds1 slapd[1277]: conn=1746 op=11 SRCH attr=hasSubordinates objectClass
+Apr  8 14:56:50 dmz-ds1 slapd[1277]: conn=1746 op=11 SEARCH RESULT tag=101 err=0 qtime=0.000052 etime=0.000340 nentries=1 text=
+Apr  8 14:56:51 dmz-ds1 slapd[1277]: conn=1746 op=12 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:51 dmz-ds1 slapd[1277]: conn=1746 op=12 SRCH attr=hasSubordinates objectClass
+Apr  8 14:56:51 dmz-ds1 slapd[1277]: conn=1746 op=12 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000454 nentries=1 text=
+Apr  8 14:56:53 dmz-ds1 slapd[1277]: conn=1746 op=13 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:53 dmz-ds1 slapd[1277]: conn=1746 op=13 SRCH attr=hasSubordinates objectClass
+Apr  8 14:56:53 dmz-ds1 slapd[1277]: conn=1746 op=13 SEARCH RESULT tag=101 err=0 qtime=0.000049 etime=0.000440 nentries=2 text=
+Apr  8 14:56:55 dmz-ds1 slapd[1277]: conn=1746 op=14 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 14:56:55 dmz-ds1 slapd[1277]: conn=1746 op=14 SRCH attr=hasSubordinates objectClass
+Apr  8 14:56:55 dmz-ds1 slapd[1277]: conn=1746 op=14 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000766 nentries=5 text=
+Apr  8 14:57:00 dmz-ds1 slapd[1277]: conn=1746 op=15 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 14:57:00 dmz-ds1 slapd[1277]: conn=1746 op=15 SRCH attr=*
+Apr  8 14:57:00 dmz-ds1 slapd[1277]: conn=1746 op=15 SEARCH RESULT tag=101 err=0 qtime=0.000051 etime=0.000432 nentries=1 text=
+Apr  8 14:59:37 dmz-ds1 slapd[1277]: conn=1746 op=16 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=2 deref=3 filter="(objectClass=*)"
+Apr  8 14:59:37 dmz-ds1 slapd[1277]: conn=1746 op=16 SEARCH RESULT tag=101 err=0 qtime=0.000049 etime=0.000442 nentries=1 text=
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 fd=19 ACCEPT from IP=154.72.161.98:18541 (IP=0.0.0.0:389)
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=0 BIND dn="" method=128
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=0 RESULT tag=97 err=0 qtime=0.000041 etime=0.000217 text=
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=1 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=1 SRCH attr=subschemaSubentry
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000063 etime=0.000423 nentries=1 text=
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=2 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=subschema)"
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=2 SRCH attr=createTimestamp modifyTimestamp
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000043 etime=0.002743 nentries=1 text=
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=3 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=3 SRCH attr=namingContexts subschemaSubentry supportedLDAPVersion supportedSASLMechanisms supportedExtension supportedControl supportedFeatures vendorName vendorVersion + objectClass
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000095 etime=0.000453 nentries=1 text=
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=4 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=4 SRCH attr=*
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000035 etime=0.000387 nentries=1 text=
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=5 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=5 SRCH attr=hasSubordinates objectClass
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000039 etime=0.002047 nentries=1 text=
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=6 SRCH base="c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=6 SRCH attr=hasSubordinates objectClass
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000036 etime=0.000376 nentries=1 text=
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=7 SRCH base="cn=config" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=7 SRCH attr=hasSubordinates objectClass
+Apr  8 15:05:46 dmz-ds1 slapd[1277]: conn=1747 op=7 SEARCH RESULT tag=101 err=32 qtime=0.000040 etime=0.000200 nentries=0 text=
+Apr  8 15:05:50 dmz-ds1 slapd[1277]: conn=1747 op=8 SRCH base="c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 15:05:50 dmz-ds1 slapd[1277]: conn=1747 op=8 SRCH attr=hasSubordinates objectClass
+Apr  8 15:05:50 dmz-ds1 slapd[1277]: conn=1747 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000030 etime=0.001044 nentries=2 text=
+Apr  8 15:05:54 dmz-ds1 slapd[1277]: conn=1747 op=9 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 15:05:54 dmz-ds1 slapd[1277]: conn=1747 op=9 SRCH attr=hasSubordinates objectClass
+Apr  8 15:05:54 dmz-ds1 slapd[1277]: conn=1747 op=9 SEARCH RESULT tag=101 err=0 qtime=0.000033 etime=0.000453 nentries=1 text=
+Apr  8 15:05:55 dmz-ds1 slapd[1277]: conn=1747 op=10 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 15:05:55 dmz-ds1 slapd[1277]: conn=1747 op=10 SRCH attr=hasSubordinates objectClass
+Apr  8 15:05:55 dmz-ds1 slapd[1277]: conn=1747 op=10 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000482 nentries=2 text=
+Apr  8 15:05:58 dmz-ds1 slapd[1277]: conn=1747 op=11 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 15:05:58 dmz-ds1 slapd[1277]: conn=1747 op=11 SRCH attr=hasSubordinates objectClass
+Apr  8 15:05:58 dmz-ds1 slapd[1277]: conn=1747 op=11 SEARCH RESULT tag=101 err=0 qtime=0.000029 etime=0.000429 nentries=5 text=
+Apr  8 15:06:01 dmz-ds1 slapd[1277]: conn=1747 op=12 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:06:01 dmz-ds1 slapd[1277]: conn=1747 op=12 SRCH attr=*
+Apr  8 15:06:01 dmz-ds1 slapd[1277]: conn=1747 op=12 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000376 nentries=1 text=
+Apr  8 15:07:11 dmz-ds1 slapd[1277]: conn=1747 op=13 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=2 deref=3 filter="(objectClass=*)"
+Apr  8 15:07:11 dmz-ds1 slapd[1277]: conn=1747 op=13 SRCH attr=*
+Apr  8 15:07:11 dmz-ds1 slapd[1277]: conn=1747 op=13 SEARCH RESULT tag=101 err=0 qtime=0.000025 etime=0.000447 nentries=1 text=
+Apr  8 15:07:37 dmz-ds1 slapd[1277]: conn=1747 op=14 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 15:07:37 dmz-ds1 slapd[1277]: conn=1747 op=14 SRCH attr=hasSubordinates objectClass
+Apr  8 15:07:37 dmz-ds1 slapd[1277]: conn=1747 op=14 SEARCH RESULT tag=101 err=0 qtime=0.000029 etime=0.000424 nentries=0 text=
+Apr  8 15:07:37 dmz-ds1 slapd[1277]: conn=1747 op=15 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=referral)"
+Apr  8 15:07:37 dmz-ds1 slapd[1277]: conn=1747 op=15 SRCH attr=hasSubordinates objectClass
+Apr  8 15:07:37 dmz-ds1 slapd[1277]: conn=1747 op=15 SEARCH RESULT tag=101 err=0 qtime=0.000047 etime=0.000295 nentries=0 text=
+Apr  8 15:07:38 dmz-ds1 slapd[1277]: conn=1747 op=16 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:07:38 dmz-ds1 slapd[1277]: conn=1747 op=16 SRCH attr=*
+Apr  8 15:07:38 dmz-ds1 slapd[1277]: conn=1747 op=16 SEARCH RESULT tag=101 err=0 qtime=0.000043 etime=0.000308 nentries=1 text=
+Apr  8 15:07:52 dmz-ds1 slapd[1277]: conn=1747 op=17 SRCH base="ou=dp4p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:07:52 dmz-ds1 slapd[1277]: conn=1747 op=17 SRCH attr=*
+Apr  8 15:07:52 dmz-ds1 slapd[1277]: conn=1747 op=17 SEARCH RESULT tag=101 err=0 qtime=0.000061 etime=0.000759 nentries=1 text=
+Apr  8 15:08:20 dmz-ds1 slapd[1277]: conn=1747 op=18 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:08:20 dmz-ds1 slapd[1277]: conn=1747 op=18 SRCH attr=*
+Apr  8 15:08:20 dmz-ds1 slapd[1277]: conn=1747 op=18 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000465 nentries=1 text=
+Apr  8 15:08:30 dmz-ds1 slapd[1277]: conn=1747 op=19 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:08:30 dmz-ds1 slapd[1277]: conn=1747 op=19 SRCH attr=* +
+Apr  8 15:08:30 dmz-ds1 slapd[1277]: conn=1747 op=19 SEARCH RESULT tag=101 err=0 qtime=0.000025 etime=0.000409 nentries=1 text=
+Apr  8 15:08:54 dmz-ds1 slapd[1277]: conn=1747 op=20 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:08:54 dmz-ds1 slapd[1277]: conn=1747 op=20 SRCH attr=*
+Apr  8 15:08:54 dmz-ds1 slapd[1277]: conn=1747 op=20 SEARCH RESULT tag=101 err=0 qtime=0.000138 etime=0.000546 nentries=1 text=
+Apr  8 15:08:57 dmz-ds1 slapd[1277]: conn=1747 op=21 SRCH base="ou=dp2p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:08:57 dmz-ds1 slapd[1277]: conn=1747 op=21 SRCH attr=*
+Apr  8 15:08:57 dmz-ds1 slapd[1277]: conn=1747 op=21 SEARCH RESULT tag=101 err=0 qtime=0.000025 etime=0.000355 nentries=1 text=
+Apr  8 15:10:35 dmz-ds1 slapd[1277]: conn=1747 op=22 SRCH base="ou=dp3p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:10:35 dmz-ds1 slapd[1277]: conn=1747 op=22 SRCH attr=*
+Apr  8 15:10:35 dmz-ds1 slapd[1277]: conn=1747 op=22 SEARCH RESULT tag=101 err=0 qtime=0.000055 etime=0.000573 nentries=1 text=
+Apr  8 15:10:55 dmz-ds1 slapd[1277]: conn=1747 op=23 SRCH base="c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 15:10:55 dmz-ds1 slapd[1277]: conn=1747 op=23 SRCH attr=*
+Apr  8 15:10:55 dmz-ds1 slapd[1277]: conn=1747 op=23 SEARCH RESULT tag=101 err=0 qtime=0.000044 etime=0.000414 nentries=1 text=
+Apr  8 15:52:04 dmz-ds1 slapd[1277]: conn=1748 fd=20 ACCEPT from IP=36.156.22.4:35314 (IP=0.0.0.0:636)
+Apr  8 15:52:04 dmz-ds1 slapd[1277]: conn=1748 fd=20 closed (TLS negotiation failure)
+Apr  8 16:49:23 dmz-ds1 slapd[1277]: conn=1744 fd=17 closed (connection lost)
+Apr  8 16:52:44 dmz-ds1 slapd[1277]: conn=1749 fd=17 ACCEPT from IP=193.118.51.138:44760 (IP=0.0.0.0:636)
+Apr  8 16:52:44 dmz-ds1 slapd[1277]: conn=1749 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=AES-256-GCM
+Apr  8 16:52:44 dmz-ds1 slapd[1277]: conn=1749 fd=17 closed (connection lost)
+Apr  8 16:52:45 dmz-ds1 slapd[1277]: conn=1750 fd=17 ACCEPT from IP=193.118.51.138:48456 (IP=0.0.0.0:636)
+Apr  8 16:52:45 dmz-ds1 slapd[1277]: conn=1750 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr  8 16:52:45 dmz-ds1 slapd[1277]: conn=1750 fd=17 closed (connection lost)
+Apr  8 16:52:46 dmz-ds1 slapd[1277]: conn=1751 fd=17 ACCEPT from IP=193.118.51.138:51652 (IP=0.0.0.0:636)
+Apr  8 16:52:46 dmz-ds1 slapd[1277]: conn=1751 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.0 tls_cipher=AES-256-CBC
+Apr  8 16:52:47 dmz-ds1 slapd[1277]: conn=1751 fd=17 closed (connection lost)
+Apr  8 16:52:47 dmz-ds1 slapd[1277]: conn=1752 fd=17 ACCEPT from IP=193.118.51.138:54340 (IP=0.0.0.0:636)
+Apr  8 16:52:47 dmz-ds1 slapd[1277]: conn=1752 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.1 tls_cipher=AES-256-CBC
+Apr  8 16:52:48 dmz-ds1 slapd[1277]: conn=1752 fd=17 closed (connection lost)
+Apr  8 16:52:49 dmz-ds1 slapd[1277]: conn=1753 fd=17 ACCEPT from IP=193.118.51.138:56204 (IP=0.0.0.0:636)
+Apr  8 16:52:49 dmz-ds1 slapd[1277]: conn=1753 fd=17 closed (TLS negotiation failure)
+Apr  8 16:52:50 dmz-ds1 slapd[1277]: conn=1754 fd=17 ACCEPT from IP=23.90.160.10:49595 (IP=0.0.0.0:636)
+Apr  8 16:52:50 dmz-ds1 slapd[1277]: conn=1754 fd=17 closed (TLS negotiation failure)
+Apr  8 16:52:50 dmz-ds1 slapd[1277]: conn=1755 fd=17 ACCEPT from IP=193.118.51.138:60248 (IP=0.0.0.0:636)
+Apr  8 16:52:51 dmz-ds1 slapd[1277]: conn=1755 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr  8 16:52:51 dmz-ds1 slapd[1277]: conn=1755 fd=17 closed (connection lost)
+Apr  8 16:52:51 dmz-ds1 slapd[1277]: conn=1756 fd=17 ACCEPT from IP=193.118.51.138:33476 (IP=0.0.0.0:636)
+Apr  8 16:52:51 dmz-ds1 slapd[1277]: conn=1756 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr  8 16:52:52 dmz-ds1 slapd[1277]: conn=1756 fd=17 closed (connection lost)
+Apr  8 16:52:52 dmz-ds1 slapd[1277]: conn=1757 fd=17 ACCEPT from IP=193.118.51.138:35786 (IP=0.0.0.0:636)
+Apr  8 16:52:52 dmz-ds1 slapd[1277]: conn=1757 fd=17 closed (TLS negotiation failure)
+Apr  8 16:52:52 dmz-ds1 slapd[1277]: conn=1758 fd=17 ACCEPT from IP=193.118.51.138:36654 (IP=0.0.0.0:636)
+Apr  8 16:52:53 dmz-ds1 slapd[1277]: conn=1758 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr  8 16:52:53 dmz-ds1 slapd[1277]: conn=1758 fd=17 closed (connection lost)
+Apr  8 16:52:53 dmz-ds1 slapd[1277]: conn=1759 fd=17 ACCEPT from IP=193.118.51.138:38218 (IP=0.0.0.0:636)
+Apr  8 16:52:53 dmz-ds1 slapd[1277]: conn=1759 fd=17 closed (TLS negotiation failure)
+Apr  8 16:52:55 dmz-ds1 slapd[1277]: conn=1760 fd=17 ACCEPT from IP=193.118.51.138:39062 (IP=0.0.0.0:636)
+Apr  8 16:52:55 dmz-ds1 slapd[1277]: conn=1760 fd=17 closed (TLS negotiation failure)
+Apr  8 16:52:55 dmz-ds1 slapd[1277]: conn=1761 fd=17 ACCEPT from IP=193.118.51.138:38137 (IP=0.0.0.0:636)
+Apr  8 16:52:56 dmz-ds1 slapd[1277]: conn=1761 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=AES-256-GCM
+Apr  8 16:52:56 dmz-ds1 slapd[1277]: conn=1761 op=0 BIND dn="" method=128
+Apr  8 16:52:56 dmz-ds1 slapd[1277]: conn=1761 op=0 RESULT tag=97 err=0 qtime=0.000046 etime=0.000221 text=
+Apr  8 16:52:56 dmz-ds1 slapd[1277]: conn=1761 op=1 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 16:52:56 dmz-ds1 slapd[1277]: conn=1761 op=1 SRCH attr=altServer namingContexts supportedControl supportedExtension supportedFeatures supportedCapabilities supportedLdapVersion supportedSASLMechanisms vendorName vendorVersion subschemaSubentry * + +
+Apr  8 16:52:56 dmz-ds1 slapd[1277]: conn=1761 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000027 etime=0.000509 nentries=1 text=
+Apr  8 16:52:56 dmz-ds1 slapd[1277]: conn=1761 op=2 UNBIND
+Apr  8 16:52:56 dmz-ds1 slapd[1277]: conn=1761 fd=17 closed
+Apr  8 16:59:38 dmz-ds1 slapd[1277]: conn=1746 fd=18 closed (connection lost)
+Apr  8 17:11:08 dmz-ds1 slapd[1277]: conn=1747 fd=19 closed (connection lost)
+Apr  8 17:31:36 dmz-ds1 slapd[1277]: conn=1762 fd=17 ACCEPT from IP=45.227.254.49:65050 (IP=0.0.0.0:389)
+Apr  8 17:31:36 dmz-ds1 slapd[1277]: conn=1762 fd=17 closed (connection lost)
+Apr  8 18:34:00 dmz-ds1 slapd[1277]: conn=1763 fd=17 ACCEPT from IP=154.73.203.162:28217 (IP=0.0.0.0:389)
+Apr  8 18:34:00 dmz-ds1 slapd[1277]: conn=1763 op=0 BIND dn="" method=128
+Apr  8 18:34:00 dmz-ds1 slapd[1277]: conn=1763 op=0 RESULT tag=97 err=0 qtime=0.000025 etime=0.000132 text=
+Apr  8 18:34:03 dmz-ds1 slapd[1277]: conn=1763 op=1 UNBIND
+Apr  8 18:34:03 dmz-ds1 slapd[1277]: conn=1763 fd=17 closed
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 fd=17 ACCEPT from IP=154.73.203.157:59070 (IP=0.0.0.0:389)
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=0 BIND dn="" method=128
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=0 RESULT tag=97 err=0 qtime=0.000039 etime=0.000171 text=
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=1 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=1 SRCH attr=isGlobalCatalogReady
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000454 nentries=1 text=
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=2 SRCH base="c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=2 SRCH attr=objectclass
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000038 etime=0.000852 nentries=2 text=
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=3 SRCH base="c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 18:34:20 dmz-ds1 slapd[1277]: conn=1764 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000039 etime=0.000279 nentries=1 text=
+Apr  8 18:34:23 dmz-ds1 slapd[1277]: conn=1764 op=4 SRCH base="o=ANTIC,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:34:23 dmz-ds1 slapd[1277]: conn=1764 op=4 SRCH attr=objectclass
+Apr  8 18:34:23 dmz-ds1 slapd[1277]: conn=1764 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000408 nentries=1 text=
+Apr  8 18:34:25 dmz-ds1 slapd[1277]: conn=1764 op=5 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:34:25 dmz-ds1 slapd[1277]: conn=1764 op=5 SRCH attr=objectclass
+Apr  8 18:34:25 dmz-ds1 slapd[1277]: conn=1764 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000462 nentries=1 text=
+Apr  8 18:34:26 dmz-ds1 slapd[1277]: conn=1764 op=6 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:34:26 dmz-ds1 slapd[1277]: conn=1764 op=6 SRCH attr=objectclass
+Apr  8 18:34:26 dmz-ds1 slapd[1277]: conn=1764 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000044 etime=0.000544 nentries=2 text=
+Apr  8 18:34:28 dmz-ds1 slapd[1277]: conn=1764 op=7 SRCH base="cn=CamGovCA,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:34:28 dmz-ds1 slapd[1277]: conn=1764 op=7 SRCH attr=objectclass
+Apr  8 18:34:28 dmz-ds1 slapd[1277]: conn=1764 op=7 SEARCH RESULT tag=101 err=0 qtime=0.000055 etime=0.000484 nentries=0 text=
+Apr  8 18:34:31 dmz-ds1 slapd[1277]: conn=1764 op=8 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:34:31 dmz-ds1 slapd[1277]: conn=1764 op=8 SRCH attr=objectclass
+Apr  8 18:34:31 dmz-ds1 slapd[1277]: conn=1764 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000056 etime=0.000438 nentries=5 text=
+Apr  8 18:35:20 dmz-ds1 slapd[1277]: conn=1764 op=9 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:35:20 dmz-ds1 slapd[1277]: conn=1764 op=9 SRCH attr=objectclass
+Apr  8 18:35:20 dmz-ds1 slapd[1277]: conn=1764 op=9 SEARCH RESULT tag=101 err=0 qtime=0.000047 etime=0.000415 nentries=0 text=
+Apr  8 18:35:25 dmz-ds1 slapd[1277]: conn=1764 op=10 SRCH base="ou=dp3p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:35:25 dmz-ds1 slapd[1277]: conn=1764 op=10 SRCH attr=objectclass
+Apr  8 18:35:25 dmz-ds1 slapd[1277]: conn=1764 op=10 SEARCH RESULT tag=101 err=0 qtime=0.000051 etime=0.000394 nentries=0 text=
+Apr  8 18:35:27 dmz-ds1 slapd[1277]: conn=1764 op=11 SRCH base="ou=dp4p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:35:27 dmz-ds1 slapd[1277]: conn=1764 op=11 SRCH attr=objectclass
+Apr  8 18:35:27 dmz-ds1 slapd[1277]: conn=1764 op=11 SEARCH RESULT tag=101 err=0 qtime=0.000047 etime=0.000396 nentries=0 text=
+Apr  8 18:35:28 dmz-ds1 slapd[1277]: conn=1764 op=12 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:35:28 dmz-ds1 slapd[1277]: conn=1764 op=12 SRCH attr=objectclass
+Apr  8 18:35:28 dmz-ds1 slapd[1277]: conn=1764 op=12 SEARCH RESULT tag=101 err=0 qtime=0.000045 etime=0.000392 nentries=0 text=
+Apr  8 18:35:29 dmz-ds1 slapd[1277]: conn=1764 op=13 SRCH base="ou=dp2p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:35:29 dmz-ds1 slapd[1277]: conn=1764 op=13 SRCH attr=objectclass
+Apr  8 18:35:29 dmz-ds1 slapd[1277]: conn=1764 op=13 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000380 nentries=0 text=
+Apr  8 18:35:36 dmz-ds1 slapd[1277]: conn=1764 op=14 SRCH base="ou=dp2p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 18:35:36 dmz-ds1 slapd[1277]: conn=1764 op=14 SEARCH RESULT tag=101 err=0 qtime=0.000053 etime=0.000434 nentries=1 text=
+Apr  8 18:36:04 dmz-ds1 slapd[1277]: conn=1764 op=15 UNBIND
+Apr  8 18:36:04 dmz-ds1 slapd[1277]: conn=1764 fd=17 closed
+Apr  8 18:36:54 dmz-ds1 slapd[1277]: conn=1765 fd=17 ACCEPT from IP=154.73.203.157:23113 (IP=0.0.0.0:389)
+Apr  8 18:36:54 dmz-ds1 slapd[1277]: conn=1765 op=0 BIND dn="" method=128
+Apr  8 18:36:54 dmz-ds1 slapd[1277]: conn=1765 op=0 RESULT tag=97 err=0 qtime=0.000035 etime=0.000123 text=
+Apr  8 18:36:56 dmz-ds1 slapd[1277]: conn=1765 op=1 UNBIND
+Apr  8 18:36:56 dmz-ds1 slapd[1277]: conn=1765 fd=17 closed
+Apr  8 18:37:40 dmz-ds1 slapd[1277]: conn=1766 fd=17 ACCEPT from IP=154.73.203.157:11134 (IP=0.0.0.0:389)
+Apr  8 18:37:40 dmz-ds1 slapd[1277]: conn=1766 op=0 BIND dn="" method=128
+Apr  8 18:37:40 dmz-ds1 slapd[1277]: conn=1766 op=0 RESULT tag=97 err=0 qtime=0.000027 etime=0.000187 text=
+Apr  8 18:37:41 dmz-ds1 slapd[1277]: conn=1766 op=1 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 18:37:41 dmz-ds1 slapd[1277]: conn=1766 op=1 SRCH attr=isGlobalCatalogReady
+Apr  8 18:37:41 dmz-ds1 slapd[1277]: conn=1766 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000414 nentries=1 text=
+Apr  8 18:37:41 dmz-ds1 slapd[1277]: conn=1766 op=2 SRCH base="c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:37:41 dmz-ds1 slapd[1277]: conn=1766 op=2 SRCH attr=objectclass
+Apr  8 18:37:41 dmz-ds1 slapd[1277]: conn=1766 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000029 etime=0.000495 nentries=2 text=
+Apr  8 18:37:41 dmz-ds1 slapd[1277]: conn=1766 op=3 SRCH base="c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 18:37:41 dmz-ds1 slapd[1277]: conn=1766 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000039 etime=0.000261 nentries=1 text=
+Apr  8 18:37:43 dmz-ds1 slapd[1277]: conn=1766 op=4 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:37:43 dmz-ds1 slapd[1277]: conn=1766 op=4 SRCH attr=objectclass
+Apr  8 18:37:43 dmz-ds1 slapd[1277]: conn=1766 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000045 etime=0.000415 nentries=1 text=
+Apr  8 18:37:44 dmz-ds1 slapd[1277]: conn=1766 op=5 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:37:44 dmz-ds1 slapd[1277]: conn=1766 op=5 SRCH attr=objectclass
+Apr  8 18:37:44 dmz-ds1 slapd[1277]: conn=1766 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000053 etime=0.000457 nentries=2 text=
+Apr  8 18:37:47 dmz-ds1 slapd[1277]: conn=1766 op=6 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  8 18:37:47 dmz-ds1 slapd[1277]: conn=1766 op=6 SRCH attr=objectclass
+Apr  8 18:37:47 dmz-ds1 slapd[1277]: conn=1766 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000026 etime=0.000674 nentries=5 text=
+Apr  8 18:38:24 dmz-ds1 slapd[1277]: conn=1766 op=7 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  8 18:38:24 dmz-ds1 slapd[1277]: conn=1766 op=7 SEARCH RESULT tag=101 err=0 qtime=0.000073 etime=0.000458 nentries=1 text=
+Apr  8 18:38:51 dmz-ds1 slapd[1277]: conn=1766 op=8 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=2 deref=3 filter="(objectClass=*)"
+Apr  8 18:38:51 dmz-ds1 slapd[1277]: conn=1766 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000458 nentries=1 text=
+Apr  8 20:40:08 dmz-ds1 slapd[1277]: conn=1766 fd=17 closed (connection lost)
+Apr  8 22:25:30 dmz-ds1 slapd[1277]: conn=1767 fd=17 ACCEPT from IP=68.183.81.241:60463 (IP=0.0.0.0:389)
+Apr  8 22:25:30 dmz-ds1 slapd[1277]: conn=1767 fd=17 closed (connection lost)
+Apr  8 23:59:30 dmz-ds1 slapd[1277]: conn=1768 fd=17 ACCEPT from IP=198.199.116.108:39348 (IP=0.0.0.0:636)
+Apr  8 23:59:30 dmz-ds1 slapd[1277]: conn=1768 fd=17 closed (TLS negotiation failure)
+Apr  9 00:19:05 dmz-ds1 slapd[1277]: conn=1769 fd=17 ACCEPT from IP=199.45.154.69:49632 (IP=0.0.0.0:636)
+Apr  9 00:19:07 dmz-ds1 slapd[1277]: conn=1769 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr  9 00:19:17 dmz-ds1 slapd[1277]: conn=1769 op=0 BIND dn="" method=128
+Apr  9 00:19:17 dmz-ds1 slapd[1277]: conn=1769 op=0 RESULT tag=97 err=0 qtime=0.000030 etime=0.000217 text=
+Apr  9 00:19:18 dmz-ds1 slapd[1277]: conn=1769 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 00:19:18 dmz-ds1 slapd[1277]: conn=1769 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000405 nentries=1 text=
+Apr  9 00:19:19 dmz-ds1 slapd[1277]: conn=1769 fd=17 closed (connection lost)
+Apr  9 00:19:22 dmz-ds1 slapd[1277]: conn=1770 fd=17 ACCEPT from IP=199.45.154.69:42360 (IP=0.0.0.0:636)
+Apr  9 00:19:25 dmz-ds1 slapd[1277]: conn=1770 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.2 tls_cipher=CHACHA20-POLY1305
+Apr  9 00:19:26 dmz-ds1 slapd[1277]: conn=1770 fd=17 closed (connection lost)
+Apr  9 00:19:28 dmz-ds1 slapd[1277]: conn=1771 fd=17 ACCEPT from IP=199.45.154.69:42370 (IP=0.0.0.0:636)
+Apr  9 00:19:29 dmz-ds1 slapd[1277]: conn=1771 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.1 tls_cipher=AES-128-CBC
+Apr  9 00:19:30 dmz-ds1 slapd[1277]: conn=1771 fd=17 closed (connection lost)
+Apr  9 00:19:32 dmz-ds1 slapd[1277]: conn=1772 fd=17 ACCEPT from IP=199.45.154.69:60558 (IP=0.0.0.0:636)
+Apr  9 00:19:34 dmz-ds1 slapd[1277]: conn=1772 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.0 tls_cipher=AES-128-CBC
+Apr  9 00:19:35 dmz-ds1 slapd[1277]: conn=1772 fd=17 closed (connection lost)
+Apr  9 00:19:36 dmz-ds1 slapd[1277]: conn=1773 fd=17 ACCEPT from IP=199.45.154.69:60562 (IP=0.0.0.0:636)
+Apr  9 00:19:38 dmz-ds1 slapd[1277]: conn=1773 fd=17 closed (TLS negotiation failure)
+Apr  9 02:23:06 dmz-ds1 slapd[1277]: conn=1774 fd=17 ACCEPT from IP=45.83.65.31:18658 (IP=0.0.0.0:389)
+Apr  9 02:23:06 dmz-ds1 slapd[1277]: conn=1774 op=0 BIND dn="" method=128
+Apr  9 02:23:06 dmz-ds1 slapd[1277]: conn=1774 op=0 RESULT tag=97 err=0 qtime=0.000021 etime=0.000225 text=
+Apr  9 02:23:08 dmz-ds1 slapd[1277]: conn=1774 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 02:23:08 dmz-ds1 slapd[1277]: conn=1774 op=1 SRCH attr=* +
+Apr  9 02:23:08 dmz-ds1 slapd[1277]: conn=1774 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000484 nentries=1 text=
+Apr  9 02:23:10 dmz-ds1 slapd[1277]: conn=1774 fd=17 closed (connection lost)
+Apr  9 03:50:40 dmz-ds1 slapd[1277]: conn=1775 fd=17 ACCEPT from IP=205.210.31.91:61484 (IP=0.0.0.0:389)
+Apr  9 03:50:40 dmz-ds1 slapd[1277]: conn=1775 op=0 BIND dn="" method=128
+Apr  9 03:50:40 dmz-ds1 slapd[1277]: conn=1775 op=0 RESULT tag=97 err=0 qtime=0.000042 etime=0.000297 text=
+Apr  9 03:50:40 dmz-ds1 slapd[1277]: conn=1775 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 03:50:40 dmz-ds1 slapd[1277]: conn=1775 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000023 etime=0.000515 nentries=1 text=
+Apr  9 03:50:40 dmz-ds1 slapd[1277]: conn=1775 fd=17 closed (connection lost)
+Apr  9 04:07:16 dmz-ds1 slapd[1277]: conn=1776 fd=17 ACCEPT from IP=205.210.31.91:61898 (IP=0.0.0.0:636)
+Apr  9 04:07:16 dmz-ds1 slapd[1277]: conn=1776 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.3 tls_cipher=AES-128-GCM
+Apr  9 04:07:16 dmz-ds1 slapd[1277]: conn=1776 op=0 BIND dn="" method=128
+Apr  9 04:07:16 dmz-ds1 slapd[1277]: conn=1776 op=0 RESULT tag=97 err=0 qtime=0.000043 etime=0.000213 text=
+Apr  9 04:07:16 dmz-ds1 slapd[1277]: conn=1776 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 04:07:16 dmz-ds1 slapd[1277]: conn=1776 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000021 etime=0.000451 nentries=1 text=
+Apr  9 04:07:16 dmz-ds1 slapd[1277]: conn=1776 fd=17 closed (connection lost)
+Apr  9 07:46:57 dmz-ds1 slapd[1277]: conn=1777 fd=17 ACCEPT from IP=154.73.203.157:10298 (IP=0.0.0.0:389)
+Apr  9 07:46:57 dmz-ds1 slapd[1277]: conn=1777 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 07:46:57 dmz-ds1 slapd[1277]: conn=1777 op=0 SRCH attr=authorityRevocationList
+Apr  9 07:46:57 dmz-ds1 slapd[1277]: conn=1777 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000023 etime=0.001594 nentries=1 text=
+Apr  9 07:46:57 dmz-ds1 slapd[1277]: conn=1777 op=1 UNBIND
+Apr  9 07:46:57 dmz-ds1 slapd[1277]: conn=1777 fd=17 closed
+Apr  9 08:19:07 dmz-ds1 slapd[1277]: conn=1778 fd=17 ACCEPT from IP=145.90.8.10:44054 (IP=0.0.0.0:636)
+Apr  9 08:19:11 dmz-ds1 slapd[1277]: conn=1778 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr  9 08:19:11 dmz-ds1 slapd[1277]: conn=1778 op=0 BIND dn="" method=128
+Apr  9 08:19:11 dmz-ds1 slapd[1277]: conn=1778 op=0 do_bind: unknown version=4
+Apr  9 08:19:11 dmz-ds1 slapd[1277]: conn=1778 op=0 RESULT tag=97 err=2 qtime=0.000043 etime=0.000266 text=requested protocol version not supported
+Apr  9 08:19:11 dmz-ds1 slapd[1277]: conn=1778 op=1 UNBIND
+Apr  9 08:19:11 dmz-ds1 slapd[1277]: conn=1778 fd=17 closed
+Apr  9 08:52:31 dmz-ds1 slapd[1277]: conn=1779 fd=17 ACCEPT from IP=198.235.24.27:54580 (IP=0.0.0.0:389)
+Apr  9 08:53:02 dmz-ds1 slapd[1277]: conn=1779 fd=17 closed (connection lost)
+Apr  9 09:32:25 dmz-ds1 slapd[1277]: conn=1780 fd=17 ACCEPT from IP=165.211.24.226:19529 (IP=0.0.0.0:389)
+Apr  9 09:32:25 dmz-ds1 slapd[1277]: conn=1780 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 09:32:25 dmz-ds1 slapd[1277]: conn=1780 op=0 SRCH attr=authorityRevocationList
+Apr  9 09:32:25 dmz-ds1 slapd[1277]: conn=1780 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000030 etime=0.000821 nentries=1 text=
+Apr  9 09:32:25 dmz-ds1 slapd[1277]: conn=1780 op=1 UNBIND
+Apr  9 09:32:25 dmz-ds1 slapd[1277]: conn=1780 fd=17 closed
+Apr  9 12:11:08 dmz-ds1 slapd[1277]: conn=1781 fd=17 ACCEPT from IP=80.66.88.204:65413 (IP=0.0.0.0:636)
+Apr  9 12:11:08 dmz-ds1 slapd[1277]: conn=1781 fd=17 closed (TLS negotiation failure)
+Apr  9 12:36:30 dmz-ds1 slapd[1277]: conn=1782 fd=17 ACCEPT from IP=87.236.176.26:46399 (IP=0.0.0.0:636)
+Apr  9 12:36:34 dmz-ds1 slapd[1277]: conn=1782 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.3 tls_cipher=AES-128-GCM
+Apr  9 12:36:37 dmz-ds1 slapd[1277]: conn=1782 op=0 BIND dn="" method=128
+Apr  9 12:36:37 dmz-ds1 slapd[1277]: conn=1782 op=0 RESULT tag=97 err=0 qtime=0.000044 etime=0.000319 text=
+Apr  9 12:36:37 dmz-ds1 slapd[1277]: conn=1782 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 12:36:37 dmz-ds1 slapd[1277]: conn=1782 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000047 etime=0.000450 nentries=1 text=
+Apr  9 12:36:37 dmz-ds1 slapd[1277]: conn=1782 op=2 UNBIND
+Apr  9 12:36:37 dmz-ds1 slapd[1277]: conn=1782 fd=17 closed
+Apr  9 12:36:38 dmz-ds1 slapd[1277]: conn=1783 fd=17 ACCEPT from IP=87.236.176.61:33867 (IP=0.0.0.0:636)
+Apr  9 12:36:38 dmz-ds1 slapd[1277]: conn=1783 fd=17 closed (TLS negotiation failure)
+Apr  9 12:37:12 dmz-ds1 slapd[1277]: conn=1784 fd=17 ACCEPT from IP=87.236.176.53:46057 (IP=0.0.0.0:636)
+Apr  9 12:37:12 dmz-ds1 slapd[1277]: conn=1784 fd=17 closed (TLS negotiation failure)
+Apr  9 12:37:45 dmz-ds1 slapd[1277]: conn=1785 fd=17 ACCEPT from IP=87.236.176.69:43997 (IP=0.0.0.0:636)
+Apr  9 12:37:45 dmz-ds1 slapd[1277]: conn=1785 fd=17 closed (TLS negotiation failure)
+Apr  9 12:38:18 dmz-ds1 slapd[1277]: conn=1786 fd=17 ACCEPT from IP=87.236.176.41:49551 (IP=0.0.0.0:636)
+Apr  9 12:38:19 dmz-ds1 slapd[1277]: conn=1786 fd=17 closed (TLS negotiation failure)
+Apr  9 12:38:52 dmz-ds1 slapd[1277]: conn=1787 fd=17 ACCEPT from IP=87.236.176.60:59647 (IP=0.0.0.0:636)
+Apr  9 12:38:52 dmz-ds1 slapd[1277]: conn=1787 fd=17 closed (TLS negotiation failure)
+Apr  9 12:39:25 dmz-ds1 slapd[1277]: conn=1788 fd=17 ACCEPT from IP=87.236.176.47:49085 (IP=0.0.0.0:636)
+Apr  9 12:39:26 dmz-ds1 slapd[1277]: conn=1788 fd=17 closed (TLS negotiation failure)
+Apr  9 12:40:00 dmz-ds1 slapd[1277]: conn=1789 fd=17 ACCEPT from IP=87.236.176.53:43083 (IP=0.0.0.0:636)
+Apr  9 12:40:00 dmz-ds1 slapd[1277]: conn=1789 fd=17 closed (TLS negotiation failure)
+Apr  9 12:40:33 dmz-ds1 slapd[1277]: conn=1790 fd=17 ACCEPT from IP=87.236.176.57:49133 (IP=0.0.0.0:636)
+Apr  9 12:40:33 dmz-ds1 slapd[1277]: conn=1790 fd=17 closed (TLS negotiation failure)
+Apr  9 12:41:07 dmz-ds1 slapd[1277]: conn=1791 fd=17 ACCEPT from IP=87.236.176.64:60299 (IP=0.0.0.0:636)
+Apr  9 12:41:07 dmz-ds1 slapd[1277]: conn=1791 fd=17 closed (TLS negotiation failure)
+Apr  9 12:41:40 dmz-ds1 slapd[1277]: conn=1792 fd=17 ACCEPT from IP=87.236.176.48:57929 (IP=0.0.0.0:636)
+Apr  9 12:41:42 dmz-ds1 slapd[1277]: conn=1792 fd=17 closed (TLS negotiation failure)
+Apr  9 12:42:20 dmz-ds1 slapd[1277]: conn=1793 fd=17 ACCEPT from IP=154.72.161.212:11679 (IP=0.0.0.0:389)
+Apr  9 12:42:20 dmz-ds1 slapd[1277]: conn=1793 op=0 BIND dn="" method=128
+Apr  9 12:42:20 dmz-ds1 slapd[1277]: conn=1793 op=0 RESULT tag=97 err=0 qtime=0.000023 etime=0.000184 text=
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=1 SRCH base="c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=1 SRCH attr=objectclass
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000037 etime=0.000420 nentries=2 text=
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=2 SRCH base="c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000018 etime=0.000246 nentries=1 text=
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=3 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=3 SRCH attr=subschemaSubentry
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000043 etime=0.000389 nentries=1 text=
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=4 SRCH base="cn=Subschema" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=4 SRCH attr=ldapSyntaxes attributeTypes objectclasses matchingRules matchingRuleUse
+Apr  9 12:42:21 dmz-ds1 slapd[1277]: conn=1793 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000023 etime=0.022815 nentries=1 text=
+Apr  9 12:42:22 dmz-ds1 slapd[1277]: conn=1793 op=5 SRCH base="o=ANTIC,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:22 dmz-ds1 slapd[1277]: conn=1793 op=5 SRCH attr=objectclass
+Apr  9 12:42:22 dmz-ds1 slapd[1277]: conn=1793 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000027 etime=0.000394 nentries=1 text=
+Apr  9 12:42:23 dmz-ds1 slapd[1277]: conn=1793 op=6 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:23 dmz-ds1 slapd[1277]: conn=1793 op=6 SRCH attr=objectclass
+Apr  9 12:42:23 dmz-ds1 slapd[1277]: conn=1793 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000044 etime=0.000488 nentries=1 text=
+Apr  9 12:42:23 dmz-ds1 slapd[1277]: conn=1793 op=7 SRCH base="ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:23 dmz-ds1 slapd[1277]: conn=1793 op=7 SRCH attr=objectclass
+Apr  9 12:42:23 dmz-ds1 slapd[1277]: conn=1793 op=7 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000387 nentries=1 text=
+Apr  9 12:42:25 dmz-ds1 slapd[1277]: conn=1793 op=8 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:25 dmz-ds1 slapd[1277]: conn=1793 op=8 SRCH attr=objectclass
+Apr  9 12:42:25 dmz-ds1 slapd[1277]: conn=1793 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000361 nentries=0 text=
+Apr  9 12:42:26 dmz-ds1 slapd[1277]: conn=1793 op=9 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:26 dmz-ds1 slapd[1277]: conn=1793 op=9 SEARCH RESULT tag=101 err=0 qtime=0.000041 etime=0.000376 nentries=1 text=
+Apr  9 12:42:41 dmz-ds1 slapd[1277]: conn=1793 op=10 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:41 dmz-ds1 slapd[1277]: conn=1793 op=10 SRCH attr=objectclass
+Apr  9 12:42:41 dmz-ds1 slapd[1277]: conn=1793 op=10 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000454 nentries=2 text=
+Apr  9 12:42:42 dmz-ds1 slapd[1277]: conn=1793 op=11 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:42 dmz-ds1 slapd[1277]: conn=1793 op=11 SRCH attr=objectclass
+Apr  9 12:42:42 dmz-ds1 slapd[1277]: conn=1793 op=11 SEARCH RESULT tag=101 err=0 qtime=0.000026 etime=0.000666 nentries=5 text=
+Apr  9 12:42:43 dmz-ds1 slapd[1277]: conn=1793 op=12 SRCH base="ou=dp3p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 12:42:43 dmz-ds1 slapd[1277]: conn=1793 op=12 SEARCH RESULT tag=101 err=0 qtime=0.000051 etime=0.000342 nentries=1 text=
+Apr  9 12:42:47 dmz-ds1 slapd[1277]: conn=1793 op=13 UNBIND
+Apr  9 12:42:47 dmz-ds1 slapd[1277]: conn=1793 fd=17 closed
+Apr  9 15:02:31 dmz-ds1 slapd[1277]: conn=1794 fd=17 ACCEPT from IP=64.62.197.137:6348 (IP=0.0.0.0:636)
+Apr  9 15:02:31 dmz-ds1 slapd[1277]: conn=1794 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr  9 15:02:31 dmz-ds1 slapd[1277]: conn=1794 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:02:31 dmz-ds1 slapd[1277]: conn=1794 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000372 nentries=1 text=
+Apr  9 15:02:32 dmz-ds1 slapd[1277]: conn=1794 fd=17 closed (connection lost)
+Apr  9 15:13:31 dmz-ds1 slapd[1277]: conn=1795 fd=17 ACCEPT from IP=154.72.162.128:12757 (IP=0.0.0.0:389)
+Apr  9 15:13:31 dmz-ds1 slapd[1277]: conn=1795 op=0 BIND dn="" method=128
+Apr  9 15:13:31 dmz-ds1 slapd[1277]: conn=1795 op=0 RESULT tag=97 err=0 qtime=0.000055 etime=0.000345 text=
+Apr  9 15:13:33 dmz-ds1 slapd[1277]: conn=1795 op=1 UNBIND
+Apr  9 15:13:33 dmz-ds1 slapd[1277]: conn=1795 fd=17 closed
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 fd=17 ACCEPT from IP=154.72.162.128:12988 (IP=0.0.0.0:389)
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=0 BIND dn="" method=128
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=0 RESULT tag=97 err=0 qtime=0.000037 etime=0.000131 text=
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=1 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=1 SRCH attr=isGlobalCatalogReady
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000049 etime=0.000549 nentries=1 text=
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=2 SRCH base="c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=2 SRCH attr=objectclass
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000023 etime=0.000517 nentries=2 text=
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=3 SRCH base="c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:39 dmz-ds1 slapd[1277]: conn=1796 op=3 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000267 nentries=1 text=
+Apr  9 15:13:42 dmz-ds1 slapd[1277]: conn=1796 op=4 SRCH base="o=ANTIC,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:42 dmz-ds1 slapd[1277]: conn=1796 op=4 SRCH attr=objectclass
+Apr  9 15:13:42 dmz-ds1 slapd[1277]: conn=1796 op=4 SEARCH RESULT tag=101 err=0 qtime=0.000052 etime=0.000459 nentries=1 text=
+Apr  9 15:13:43 dmz-ds1 slapd[1277]: conn=1796 op=5 SRCH base="ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:43 dmz-ds1 slapd[1277]: conn=1796 op=5 SRCH attr=objectclass
+Apr  9 15:13:43 dmz-ds1 slapd[1277]: conn=1796 op=5 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000412 nentries=1 text=
+Apr  9 15:13:45 dmz-ds1 slapd[1277]: conn=1796 op=6 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:45 dmz-ds1 slapd[1277]: conn=1796 op=6 SRCH attr=objectclass
+Apr  9 15:13:45 dmz-ds1 slapd[1277]: conn=1796 op=6 SEARCH RESULT tag=101 err=0 qtime=0.000051 etime=0.000438 nentries=0 text=
+Apr  9 15:13:48 dmz-ds1 slapd[1277]: conn=1796 op=7 SRCH base="o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:48 dmz-ds1 slapd[1277]: conn=1796 op=7 SRCH attr=objectclass
+Apr  9 15:13:48 dmz-ds1 slapd[1277]: conn=1796 op=7 SEARCH RESULT tag=101 err=0 qtime=0.000116 etime=0.000473 nentries=1 text=
+Apr  9 15:13:49 dmz-ds1 slapd[1277]: conn=1796 op=8 SRCH base="ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:49 dmz-ds1 slapd[1277]: conn=1796 op=8 SRCH attr=objectclass
+Apr  9 15:13:49 dmz-ds1 slapd[1277]: conn=1796 op=8 SEARCH RESULT tag=101 err=0 qtime=0.000025 etime=0.000474 nentries=2 text=
+Apr  9 15:13:51 dmz-ds1 slapd[1277]: conn=1796 op=9 SRCH base="cn=CamGovCA,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:51 dmz-ds1 slapd[1277]: conn=1796 op=9 SRCH attr=objectclass
+Apr  9 15:13:51 dmz-ds1 slapd[1277]: conn=1796 op=9 SEARCH RESULT tag=101 err=0 qtime=0.000051 etime=0.000436 nentries=0 text=
+Apr  9 15:13:53 dmz-ds1 slapd[1277]: conn=1796 op=10 SRCH base="ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:13:53 dmz-ds1 slapd[1277]: conn=1796 op=10 SRCH attr=objectclass
+Apr  9 15:13:53 dmz-ds1 slapd[1277]: conn=1796 op=10 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000484 nentries=5 text=
+Apr  9 15:14:07 dmz-ds1 slapd[1277]: conn=1796 op=11 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:14:07 dmz-ds1 slapd[1277]: conn=1796 op=11 SRCH attr=subschemaSubentry
+Apr  9 15:14:07 dmz-ds1 slapd[1277]: conn=1796 op=11 SEARCH RESULT tag=101 err=0 qtime=0.000049 etime=0.000405 nentries=1 text=
+Apr  9 15:14:07 dmz-ds1 slapd[1277]: conn=1796 op=12 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:14:07 dmz-ds1 slapd[1277]: conn=1796 op=12 SRCH attr=ldapSyntaxes attributeTypes objectclasses matchingRules matchingRuleUse
+Apr  9 15:14:07 dmz-ds1 slapd[1277]: conn=1796 op=12 SEARCH RESULT tag=101 err=0 qtime=0.000034 etime=0.035512 nentries=1 text=
+Apr  9 15:14:25 dmz-ds1 slapd[1277]: conn=1796 op=13 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:14:25 dmz-ds1 slapd[1277]: conn=1796 op=13 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000470 nentries=1 text=
+Apr  9 15:14:25 dmz-ds1 slapd[1277]: conn=1796 op=14 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:14:25 dmz-ds1 slapd[1277]: conn=1796 op=14 SRCH attr=subschemaSubentry
+Apr  9 15:14:25 dmz-ds1 slapd[1277]: conn=1796 op=14 SEARCH RESULT tag=101 err=0 qtime=0.000028 etime=0.000413 nentries=1 text=
+Apr  9 15:14:25 dmz-ds1 slapd[1277]: conn=1796 op=15 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:14:25 dmz-ds1 slapd[1277]: conn=1796 op=15 SRCH attr=ldapSyntaxes attributeTypes objectclasses matchingRules matchingRuleUse
+Apr  9 15:14:29 dmz-ds1 slapd[1277]: conn=1796 op=15 SEARCH RESULT tag=101 err=0 qtime=0.000045 etime=4.198779 nentries=1 text=
+Apr  9 15:15:14 dmz-ds1 slapd[1277]: conn=1796 op=16 SRCH base="ou=dp4p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:15:14 dmz-ds1 slapd[1277]: conn=1796 op=16 SEARCH RESULT tag=101 err=0 qtime=0.000049 etime=0.000467 nentries=1 text=
+Apr  9 15:15:58 dmz-ds1 slapd[1277]: conn=1796 op=17 SRCH base="ou=dp4p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:15:58 dmz-ds1 slapd[1277]: conn=1796 op=17 SRCH attr=objectclass
+Apr  9 15:15:58 dmz-ds1 slapd[1277]: conn=1796 op=17 SEARCH RESULT tag=101 err=0 qtime=0.000047 etime=0.000523 nentries=0 text=
+Apr  9 15:15:58 dmz-ds1 slapd[1277]: conn=1796 op=18 SRCH base="ou=dp4p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:15:58 dmz-ds1 slapd[1277]: conn=1796 op=18 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000342 nentries=1 text=
+Apr  9 15:16:30 dmz-ds1 slapd[1277]: conn=1796 op=19 SRCH base="ou=dp4p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=1 deref=3 filter="(objectClass=*)"
+Apr  9 15:16:30 dmz-ds1 slapd[1277]: conn=1796 op=19 SRCH attr=objectclass
+Apr  9 15:16:30 dmz-ds1 slapd[1277]: conn=1796 op=19 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000460 nentries=0 text=
+Apr  9 15:16:30 dmz-ds1 slapd[1277]: conn=1796 op=20 SRCH base="ou=dp4p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=3 filter="(objectClass=*)"
+Apr  9 15:16:30 dmz-ds1 slapd[1277]: conn=1796 op=20 SEARCH RESULT tag=101 err=0 qtime=0.000021 etime=0.000410 nentries=1 text=
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1797 fd=18 ACCEPT from IP=154.72.161.212:13206 (IP=0.0.0.0:389)
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1797 op=0 BIND dn="" method=128
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1797 op=0 RESULT tag=97 err=0 qtime=0.000060 etime=0.000225 text=
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1797 op=1 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1797 op=1 SRCH attr=certificateRevocationList
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1797 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000043 etime=0.000640 nentries=1 text=
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1797 op=2 UNBIND
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1797 fd=18 closed
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1798 fd=18 ACCEPT from IP=154.72.161.212:13209 (IP=0.0.0.0:389)
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1798 op=0 BIND dn="" method=128
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1798 op=0 RESULT tag=97 err=0 qtime=0.000021 etime=0.000137 text=
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1798 op=1 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1798 op=1 SRCH attr=authorityRevocationList
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1798 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000050 etime=0.000307 nentries=1 text=
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1798 op=2 UNBIND
+Apr  9 15:19:53 dmz-ds1 slapd[1277]: conn=1798 fd=18 closed
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1799 fd=18 ACCEPT from IP=154.72.161.212:13213 (IP=0.0.0.0:389)
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1799 op=0 BIND dn="" method=128
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1799 op=0 RESULT tag=97 err=0 qtime=0.000016 etime=0.000114 text=
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1799 op=1 SRCH base="ou=dp2p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1799 op=1 SRCH attr=certificateRevocationList
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1799 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000028 etime=0.000366 nentries=1 text=
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1799 op=2 UNBIND
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1799 fd=18 closed
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1800 fd=18 ACCEPT from IP=154.72.161.212:13215 (IP=0.0.0.0:389)
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1800 op=0 BIND dn="" method=128
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1800 op=0 RESULT tag=97 err=0 qtime=0.000038 etime=0.000171 text=
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1800 op=1 SRCH base="ou=dp2p2,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1800 op=1 SRCH attr=certificateRevocationList
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1800 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000061 etime=0.000345 nentries=1 text=
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1800 op=2 UNBIND
+Apr  9 15:19:54 dmz-ds1 slapd[1277]: conn=1800 fd=18 closed
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1801 fd=18 ACCEPT from IP=154.72.161.212:13217 (IP=0.0.0.0:389)
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1801 op=0 BIND dn="" method=128
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1801 op=0 RESULT tag=97 err=0 qtime=0.000021 etime=0.000136 text=
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1801 op=1 SRCH base="ou=dp2p3,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1801 op=1 SRCH attr=certificateRevocationList
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1801 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000048 etime=0.000290 nentries=1 text=
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1801 op=2 UNBIND
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1801 fd=18 closed
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1802 fd=18 ACCEPT from IP=154.72.161.212:13219 (IP=0.0.0.0:389)
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1802 op=0 BIND dn="" method=128
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1802 op=0 RESULT tag=97 err=0 qtime=0.000039 etime=0.000170 text=
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1802 op=1 SRCH base="ou=dp3p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1802 op=1 SRCH attr=certificateRevocationList
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1802 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000029 etime=0.000252 nentries=1 text=
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1802 op=2 UNBIND
+Apr  9 15:19:55 dmz-ds1 slapd[1277]: conn=1802 fd=18 closed
+Apr  9 15:19:56 dmz-ds1 slapd[1277]: conn=1803 fd=18 ACCEPT from IP=154.72.161.212:13221 (IP=0.0.0.0:389)
+Apr  9 15:19:56 dmz-ds1 slapd[1277]: conn=1803 op=0 BIND dn="" method=128
+Apr  9 15:19:56 dmz-ds1 slapd[1277]: conn=1803 op=0 RESULT tag=97 err=0 qtime=0.000041 etime=0.000168 text=
+Apr  9 15:19:56 dmz-ds1 slapd[1277]: conn=1803 op=1 SRCH base="ou=dp4p1,ou=crldp,ou=Cameroon Government Certification Authority,o=ANTIC CA,c=cm" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:19:56 dmz-ds1 slapd[1277]: conn=1803 op=1 SRCH attr=certificateRevocationList
+Apr  9 15:19:56 dmz-ds1 slapd[1277]: conn=1803 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000038 etime=0.000341 nentries=1 text=
+Apr  9 15:19:56 dmz-ds1 slapd[1277]: conn=1803 op=2 UNBIND
+Apr  9 15:19:56 dmz-ds1 slapd[1277]: conn=1803 fd=18 closed
+Apr  9 15:34:27 dmz-ds1 slapd[1277]: conn=1804 fd=18 ACCEPT from IP=184.105.247.252:8912 (IP=0.0.0.0:389)
+Apr  9 15:34:27 dmz-ds1 slapd[1277]: conn=1804 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 15:34:27 dmz-ds1 slapd[1277]: conn=1804 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000036 etime=0.000700 nentries=1 text=
+Apr  9 15:34:28 dmz-ds1 slapd[1277]: conn=1804 fd=18 closed (connection lost)
+Apr  9 16:01:25 dmz-ds1 slapd[1277]: conn=1805 fd=18 ACCEPT from IP=41.202.219.166:14015 (IP=0.0.0.0:389)
+Apr  9 16:01:25 dmz-ds1 slapd[1277]: conn=1805 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 16:01:25 dmz-ds1 slapd[1277]: conn=1805 op=0 SRCH attr=authorityRevocationList
+Apr  9 16:01:25 dmz-ds1 slapd[1277]: conn=1805 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000015 etime=0.000489 nentries=1 text=
+Apr  9 16:01:25 dmz-ds1 slapd[1277]: conn=1805 op=1 UNBIND
+Apr  9 16:01:25 dmz-ds1 slapd[1277]: conn=1805 fd=18 closed
+Apr  9 16:35:34 dmz-ds1 slapd[1277]: conn=1806 fd=18 ACCEPT from IP=154.72.160.3:1115 (IP=0.0.0.0:389)
+Apr  9 16:35:34 dmz-ds1 slapd[1277]: conn=1806 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr  9 16:35:34 dmz-ds1 slapd[1277]: conn=1806 op=0 SRCH attr=subschemaSubentry dsServiceName namingContexts defaultNamingContext schemaNamingContext configurationNamingContext rootDomainNamingContext supportedControl supportedLDAPVersion supportedLDAPPolicies supportedSASLMechanisms dnsHostName ldapServiceName serverName supportedCapabilities
+Apr  9 16:35:34 dmz-ds1 slapd[1277]: conn=1806 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000059 etime=0.000929 nentries=1 text=
+Apr  9 16:35:34 dmz-ds1 slapd[1277]: conn=1806 op=1 UNBIND
+Apr  9 16:35:34 dmz-ds1 slapd[1277]: conn=1806 fd=18 closed
+Apr  9 17:03:45 dmz-ds1 slapd[1277]: conn=1807 fd=18 ACCEPT from IP=198.199.113.105:49528 (IP=0.0.0.0:389)
+Apr  9 17:03:55 dmz-ds1 slapd[1277]: conn=1807 fd=18 closed (connection lost)

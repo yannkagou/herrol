@@ -1,0 +1,155 @@
+Apr 14 00:50:22 dmz-ds1 slapd[1277]: conn=1980 fd=17 ACCEPT from   IP=198.235.24.115:58496 (IP=0.0.0.0:389)
+Apr 14 00:50:22 dmz-ds1 slapd[1277]: conn=1980 op=0 BIND dn="" method=128
+Apr 14 00:50:22 dmz-ds1 slapd[1277]: conn=1980 op=0 RESULT tag=97 err=0 qtime=0.000053 etime=0.000266 text=
+Apr 14 00:50:23 dmz-ds1 slapd[1277]: conn=1980 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 14 00:50:23 dmz-ds1 slapd[1277]: conn=1980 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000608 nentries=1 text=
+Apr 14 00:50:23 dmz-ds1 slapd[1277]: conn=1980 fd=17 closed (connection lost)
+Apr 14 03:49:01 dmz-ds1 slapd[1277]: conn=1981 fd=17 ACCEPT from    IP=185.242.226.43:44030   (IP=0.0.0.0:636)
+Apr 14 03:49:01 dmz-ds1 slapd[1277]: conn=1981 fd=17 closed (TLS negotiation failure)
+Apr 14 05:38:24 dmz-ds1 slapd[1277]: conn=1982 fd=17 ACCEPT from  IP=192.241.238.32:60744  (IP=0.0.0.0:389)
+Apr 14 05:38:34 dmz-ds1 slapd[1277]: conn=1982 fd=17 closed (connection lost)
+Apr 14 05:55:06 dmz-ds1 slapd[1277]: conn=1983 fd=17 ACCEPT from IP=64.62.197.107:58260 (IP=0.0.0.0:636)
+Apr 14 05:55:07 dmz-ds1 slapd[1277]: conn=1983 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr 14 05:55:07 dmz-ds1 slapd[1277]: conn=1983 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 14 05:55:07 dmz-ds1 slapd[1277]: conn=1983 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000049 etime=0.000538 nentries=1 text=
+Apr 14 05:55:07 dmz-ds1 slapd[1277]: conn=1983 fd=17 closed (connection lost)
+Apr 14 06:10:15 dmz-ds1 slapd[1277]: conn=1984 fd=17 ACCEPT from IP=35.203.210.9:63988 (IP=0.0.0.0:636)
+Apr 14 06:10:18 dmz-ds1 slapd[1277]: conn=1984 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.3 tls_cipher=AES-128-GCM
+Apr 14 06:10:18 dmz-ds1 slapd[1277]: conn=1984 fd=17 closed (connection lost)
+Apr 14 07:33:27 dmz-ds1 slapd[1277]: conn=1985 fd=17 ACCEPT from  IP=50.31.21.5:54826 (IP=0.0.0.0:389)
+Apr 14 07:33:33 dmz-ds1 slapd[1277]: conn=1985 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 14 07:33:33 dmz-ds1 slapd[1277]: conn=1985 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000046 etime=0.000434 nentries=1 text=
+Apr 14 07:33:38 dmz-ds1 slapd[1277]: conn=1985 fd=17 closed (connection lost)
+Apr 14 07:33:39 dmz-ds1 slapd[1277]: conn=1986 fd=17 ACCEPT from   IP=50.31.21.5:50064 (IP=0.0.0.0:389)
+Apr 14 07:33:39 dmz-ds1 slapd[1277]: conn=1986 op=0 BIND dn="" method=128
+Apr 14 07:33:39 dmz-ds1 slapd[1277]: conn=1986 op=0 RESULT tag=97 err=0 qtime=0.000019 etime=0.000109 text=
+Apr 14 07:33:39 dmz-ds1 slapd[1277]: conn=1986 fd=17 closed (connection lost)
+Apr 14 07:35:31 dmz-ds1 slapd[1277]: conn=1987 fd=17 ACCEPT from   IP=50.31.21.5:45158 (IP=0.0.0.0:389)
+Apr 14 07:35:31 dmz-ds1 slapd[1277]: conn=1987 op=0 BIND dn="" method=128
+Apr 14 07:35:31 dmz-ds1 slapd[1277]: conn=1987 op=0 RESULT tag=97 err=0 qtime=0.000048 etime=0.000216 text=
+Apr 14 07:35:31 dmz-ds1 slapd[1277]: conn=1987 fd=17 closed (connection lost)
+Apr 14 07:35:32 dmz-ds1 slapd[1277]: conn=1988 fd=17 ACCEPT from   IP=50.31.21.5:42808 (IP=0.0.0.0:389)
+Apr 14 07:35:32 dmz-ds1 slapd[1277]: conn=1988 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 14 07:35:32 dmz-ds1 slapd[1277]: conn=1988 op=0 SRCH attr=defaultNamingContext namingContexts
+Apr 14 07:35:32 dmz-ds1 slapd[1277]: conn=1988 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000042 etime=0.000464 nentries=1 text=
+Apr 14 07:35:32 dmz-ds1 slapd[1277]: conn=1988 op=1 SRCH base="c=cm" scope=2 deref=0 filter="(objectClass=*)"
+Apr 14 07:35:32 dmz-ds1 slapd[1277]: conn=1988 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000735 nentries=13 text=
+Apr 14 07:35:33 dmz-ds1 slapd[1277]: conn=1988 fd=17 closed (connection lost)
+Apr 14 07:39:53 dmz-ds1 slapd[1277]: conn=1989 op=0 BIND dn="" method=128
+Apr 14 07:39:53 dmz-ds1 slapd[1277]: conn=1989 op=0 RESULT tag=97 err=0 qtime=0.000016 etime=0.000173 text=
+Apr 14 07:39:53 dmz-ds1 slapd[1277]: conn=1989 fd=17 ACCEPT from   IP=192.241.239.41:57640 (IP=0.0.0.0:389)
+Apr 14 07:39:53 dmz-ds1 slapd[1277]: conn=1989 fd=17 closed (connection lost)
+Apr 14 15:47:39 dmz-ds1 slapd[1277]: conn=1990 fd=17 closed (connection lost)
+Apr 14 15:47:39 dmz-ds1 slapd[1277]: conn=1990 fd=17 ACCEPT from   IP=121.173.126.140:52725 (IP=0.0.0.0:389)
+Apr 14 16:23:38 dmz-ds1 slapd[1277]: conn=1991 fd=17 ACCEPT from   IP=37.71.179.20:49829 (IP=0.0.0.0:389)
+Apr 14 16:23:38 dmz-ds1 slapd[1277]: conn=1991 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr 14 16:23:38 dmz-ds1 slapd[1277]: conn=1991 op=0 SRCH attr=authorityRevocationList
+Apr 14 16:23:38 dmz-ds1 slapd[1277]: conn=1991 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000017 etime=0.000573 nentries=1 text=
+Apr 14 16:23:41 dmz-ds1 slapd[1277]: conn=1991 op=1 UNBIND
+Apr 14 16:23:41 dmz-ds1 slapd[1277]: conn=1991 fd=17 closed
+Apr 14 18:14:50 dmz-ds1 slapd[1277]: conn=1992 fd=17 ACCEPT from IP=129.0.205.175:13483 (IP=0.0.0.0:389)
+Apr 14 18:14:50 dmz-ds1 slapd[1277]: conn=1992 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr 14 18:14:50 dmz-ds1 slapd[1277]: conn=1992 op=0 SRCH attr=authorityRevocationList
+Apr 14 18:14:50 dmz-ds1 slapd[1277]: conn=1992 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000017 etime=0.000444 nentries=1 text=
+Apr 14 18:14:50 dmz-ds1 slapd[1277]: conn=1992 op=1 UNBIND
+Apr 14 18:14:50 dmz-ds1 slapd[1277]: conn=1992 fd=17 closed
+Apr 14 19:29:28 dmz-ds1 slapd[1277]: conn=1993 fd=17 ACCEPT from   IP=45.227.254.8:65052 (IP=0.0.0.0:389)
+Apr 14 19:29:28 dmz-ds1 slapd[1277]: conn=1993 fd=17 closed (connection lost)
+Apr 14 19:34:44 dmz-ds1 slapd[1277]: conn=1994 fd=17 ACCEPT from   IP=206.168.34.125:45156 (IP=0.0.0.0:636)
+Apr 14 19:34:44 dmz-ds1 slapd[1277]: conn=1994 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr 14 19:34:44 dmz-ds1 slapd[1277]: conn=1994 op=0 BIND dn="" method=128
+Apr 14 19:34:44 dmz-ds1 slapd[1277]: conn=1994 op=0 RESULT tag=97 err=0 qtime=0.000026 etime=0.000185 text=
+Apr 14 19:34:45 dmz-ds1 slapd[1277]: conn=1994 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 14 19:34:45 dmz-ds1 slapd[1277]: conn=1994 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000036 etime=0.000505 nentries=1 text=
+Apr 14 19:34:45 dmz-ds1 slapd[1277]: conn=1994 fd=17 closed (connection lost)
+Apr 14 19:34:46 dmz-ds1 slapd[1277]: conn=1995 fd=17 ACCEPT from   IP=206.168.34.125:51578 (IP=0.0.0.0:636)
+Apr 14 19:34:47 dmz-ds1 slapd[1277]: conn=1995 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.2 tls_cipher=CHACHA20-POLY1305
+Apr 14 19:34:47 dmz-ds1 slapd[1277]: conn=1995 fd=17 closed (connection lost)
+Apr 14 19:34:48 dmz-ds1 slapd[1277]: conn=1996 fd=17 ACCEPT from   IP=206.168.34.125:36742 (IP=0.0.0.0:636)
+Apr 14 19:34:48 dmz-ds1 slapd[1277]: conn=1996 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.1 tls_cipher=AES-128-CBC
+Apr 14 19:34:49 dmz-ds1 slapd[1277]: conn=1996 fd=17 closed (connection lost)
+Apr 14 19:34:50 dmz-ds1 slapd[1277]: conn=1997 fd=17 ACCEPT from   IP=206.168.34.125:49088 (IP=0.0.0.0:636)
+Apr 14 19:34:51 dmz-ds1 slapd[1277]: conn=1997 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.0 tls_cipher=AES-128-CBC
+Apr 14 19:34:51 dmz-ds1 slapd[1277]: conn=1997 fd=17 closed (connection lost)
+Apr 14 19:34:52 dmz-ds1 slapd[1277]: conn=1998 fd=17 ACCEPT from IP=206.168.34.125:47366 (IP=0.0.0.0:636)
+Apr 14 19:34:52 dmz-ds1 slapd[1277]: conn=1998 fd=17 closed (TLS negotiation failure)
+Apr 14 23:02:03 dmz-ds1 slapd[1277]: conn=1999 fd=17 ACCEPT from   IP=154.126.168.243:50667 (IP=0.0.0.0:389)
+Apr 14 23:02:03 dmz-ds1 slapd[1277]: conn=1999 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr 14 23:02:03 dmz-ds1 slapd[1277]: conn=1999 op=0 SRCH attr=authorityRevocationList
+Apr 14 23:02:03 dmz-ds1 slapd[1277]: conn=1999 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000034 etime=0.000505 nentries=1 text=
+Apr 14 23:02:03 dmz-ds1 slapd[1277]: conn=1999 op=1 UNBIND
+Apr 14 23:02:03 dmz-ds1 slapd[1277]: conn=1999 fd=17 closed
+Apr 15 00:08:42 dmz-ds1 slapd[1277]: conn=2000 fd=17 ACCEPT from  IP=205.210.31.214:64484 (IP=0.0.0.0:636)
+Apr 15 00:08:42 dmz-ds1 slapd[1277]: conn=2000 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.3 tls_cipher=AES-128-GCM
+Apr 15 00:08:42 dmz-ds1 slapd[1277]: conn=2000 op=0 BIND dn="" method=128
+Apr 15 00:08:42 dmz-ds1 slapd[1277]: conn=2000 op=0 RESULT tag=97 err=0 qtime=0.000032 etime=0.000500 text=
+Apr 15 00:08:43 dmz-ds1 slapd[1277]: conn=2000 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 15 00:08:43 dmz-ds1 slapd[1277]: conn=2000 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000041 etime=0.001233 nentries=1 text=
+Apr 15 00:08:43 dmz-ds1 slapd[1277]: conn=2000 fd=17 closed (connection lost)
+Apr 15 00:23:03 dmz-ds1 slapd[1277]: conn=2001 fd=17 ACCEPT from  IP=174.129.177.221:42479 (IP=0.0.0.0:389)
+Apr 15 00:23:03 dmz-ds1 slapd[1277]: conn=2001 op=0 BIND dn="" method=128
+Apr 15 00:23:03 dmz-ds1 slapd[1277]: conn=2001 op=0 RESULT tag=97 err=0 qtime=0.000051 etime=0.000316 text=
+Apr 15 00:23:03 dmz-ds1 slapd[1277]: conn=2001 op=1 SRCH base="" scope=0 deref=3 filter="(objectClass=*)"
+Apr 15 00:23:03 dmz-ds1 slapd[1277]: conn=2001 op=1 SRCH attr=altServer namingContexts supportedControl supportedExtension supportedFeatures supportedCapabilities supportedLdapVersion supportedSASLMechanisms vendorName vendorVersion subschemaSubentry * + +
+Apr 15 00:23:03 dmz-ds1 slapd[1277]: conn=2001 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000041 etime=0.000954 nentries=1 text=
+Apr 15 00:23:03 dmz-ds1 slapd[1277]: conn=2001 op=2 SRCH base="cn=Subschema" scope=0 deref=3 filter="(objectClass=subschema)"
+Apr 15 00:23:03 dmz-ds1 slapd[1277]: conn=2001 op=2 SRCH attr=objectClasses attributeTypes ldapSyntaxes matchingRules matchingRuleUse dITContentRules dITStructureRules nameForms createTimestamp modifyTimestamp * +
+Apr 15 00:23:04 dmz-ds1 slapd[1277]: conn=2001 op=2 SEARCH RESULT tag=101 err=0 qtime=0.000088 etime=0.695390 nentries=1 text=
+Apr 15 00:23:04 dmz-ds1 slapd[1277]: conn=2001 op=3 UNBIND
+Apr 15 00:23:04 dmz-ds1 slapd[1277]: conn=2001 fd=17 closed
+Apr 15 04:23:43 dmz-ds1 slapd[1277]: conn=2002 fd=17 ACCEPT from  IP=185.242.226.26:43704 (IP=0.0.0.0:389)
+Apr 15 04:23:43 dmz-ds1 slapd[1277]: conn=2002 op=0 BIND dn="" method=128
+Apr 15 04:23:43 dmz-ds1 slapd[1277]: conn=2002 op=0 RESULT tag=97 err=0 qtime=0.000056 etime=0.000210 text=
+Apr 15 04:23:44 dmz-ds1 slapd[1277]: conn=2002 fd=17 closed (connection lost)
+Apr 15 04:23:44 dmz-ds1 slapd[1277]: conn=2003 fd=17 ACCEPT from  IP=185.242.226.26:43796 (IP=0.0.0.0:389)
+Apr 15 04:23:44 dmz-ds1 slapd[1277]: conn=2003 op=0 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 15 04:23:44 dmz-ds1 slapd[1277]: conn=2003 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000018 etime=0.000250 nentries=1 text=
+Apr 15 04:23:45 dmz-ds1 slapd[1277]: conn=2003 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 15 04:23:45 dmz-ds1 slapd[1277]: conn=2003 op=1 SRCH attr=1.1 configurationNamingContext currentTime defaultNamingContext dnsHostName domainFunctionality dsServiceName forestFunctionality highestCommittedUSN isGlobalCatalogReady isSynchronized ldap-get-baseobject ldapServiceName namingContexts rootDomainNamingContext schemaNamingContext serverName subschemaSubentry supportedCapabilities supportedControl supportedLDAPPolicies supportedLDAPVersion supportedSASLMechanisms altServer supportedExtension
+Apr 15 04:23:45 dmz-ds1 slapd[1277]: conn=2003 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000056 etime=0.000442 nentries=1 text=
+Apr 15 04:23:45 dmz-ds1 slapd[1277]: conn=2003 fd=17 closed (connection lost)
+Apr 15 05:03:25 dmz-ds1 slapd[1277]: conn=2004 fd=17 ACCEPT from  IP=107.170.226.21:58424 (IP=0.0.0.0:636)
+Apr 15 05:03:25 dmz-ds1 slapd[1277]: conn=2004 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.2 tls_cipher=AES-128-GCM
+Apr 15 05:03:25 dmz-ds1 slapd[1277]: conn=2004 fd=17 closed (connection lost)
+Apr 15 05:10:39 dmz-ds1 slapd[1277]: conn=2005 fd=17 ACCEPT from  IP=60.12.158.88:58631 (IP=0.0.0.0:389)
+Apr 15 05:10:39 dmz-ds1 slapd[1277]: conn=2005 op=0 SRCH base="cn=CamRootCA,ou=Cameroon Root Certification Authority,o=ANTIC,c=CM" scope=0 deref=0 filter="(objectClass=*)"
+Apr 15 05:10:39 dmz-ds1 slapd[1277]: conn=2005 op=0 SRCH attr=authorityRevocationList
+Apr 15 05:10:39 dmz-ds1 slapd[1277]: conn=2005 op=0 SEARCH RESULT tag=101 err=0 qtime=0.000023 etime=0.000381 nentries=1 text=
+Apr 15 05:10:39 dmz-ds1 slapd[1277]: conn=2005 op=1 UNBIND
+Apr 15 05:10:39 dmz-ds1 slapd[1277]: conn=2005 fd=17 closed
+Apr 15 05:20:49 dmz-ds1 slapd[1277]: conn=2006 fd=17 ACCEPT from  IP=167.94.138.33:49062 (IP=0.0.0.0:636)
+Apr 15 05:20:49 dmz-ds1 slapd[1277]: conn=2006 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr 15 05:20:49 dmz-ds1 slapd[1277]: conn=2006 op=0 BIND dn="" method=128
+Apr 15 05:20:49 dmz-ds1 slapd[1277]: conn=2006 op=0 RESULT tag=97 err=0 qtime=0.000077 etime=0.000253 text=
+Apr 15 05:20:49 dmz-ds1 slapd[1277]: conn=2006 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 15 05:20:49 dmz-ds1 slapd[1277]: conn=2006 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000043 etime=0.000552 nentries=1 text=
+Apr 15 05:20:49 dmz-ds1 slapd[1277]: conn=2006 fd=17 closed (connection lost)
+Apr 15 05:20:52 dmz-ds1 slapd[1277]: conn=2007 fd=17 ACCEPT from  IP=167.94.138.33:58516 (IP=0.0.0.0:636)
+Apr 15 05:20:52 dmz-ds1 slapd[1277]: conn=2007 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.2 tls_cipher=CHACHA20-POLY1305
+Apr 15 05:20:53 dmz-ds1 slapd[1277]: conn=2007 fd=17 closed (connection lost)
+Apr 15 05:20:55 dmz-ds1 slapd[1277]: conn=2008 fd=17 ACCEPT from  IP=167.94.138.33:53824 (IP=0.0.0.0:636)
+Apr 15 05:20:56 dmz-ds1 slapd[1277]: conn=2008 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.1 tls_cipher=AES-128-CBC
+Apr 15 05:20:56 dmz-ds1 slapd[1277]: conn=2008 fd=17 closed (connection lost)
+Apr 15 05:20:58 dmz-ds1 slapd[1277]: conn=2009 fd=17 ACCEPT from  IP=167.94.138.33:39354 (IP=0.0.0.0:636)
+Apr 15 05:20:58 dmz-ds1 slapd[1277]: conn=2009 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.0 tls_cipher=AES-128-CBC
+Apr 15 05:20:59 dmz-ds1 slapd[1277]: conn=2009 fd=17 closed (connection lost)
+Apr 15 05:21:00 dmz-ds1 slapd[1277]: conn=2010 fd=17 ACCEPT from  IP=167.94.138.33:43552 (IP=0.0.0.0:636)
+Apr 15 05:21:00 dmz-ds1 slapd[1277]: conn=2010 fd=17 closed (TLS negotiation failure)
+Apr 15 05:28:34 dmz-ds1 slapd[1277]: conn=2011 fd=17 ACCEPT from  IP=167.94.146.55:45390 (IP=0.0.0.0:636)
+Apr 15 05:28:34 dmz-ds1 slapd[1277]: conn=2011 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.3 tls_cipher=CHACHA20-POLY1305
+Apr 15 05:28:34 dmz-ds1 slapd[1277]: conn=2011 op=0 BIND dn="" method=128
+Apr 15 05:28:34 dmz-ds1 slapd[1277]: conn=2011 op=0 RESULT tag=97 err=0 qtime=0.000056 etime=0.000210 text=
+Apr 15 05:28:34 dmz-ds1 slapd[1277]: conn=2011 op=1 SRCH base="" scope=0 deref=0 filter="(objectClass=*)"
+Apr 15 05:28:34 dmz-ds1 slapd[1277]: conn=2011 op=1 SEARCH RESULT tag=101 err=0 qtime=0.000040 etime=0.000394 nentries=1 text=
+Apr 15 05:28:34 dmz-ds1 slapd[1277]: conn=2011 fd=17 closed (connection lost)
+Apr 15 05:28:36 dmz-ds1 slapd[1277]: conn=2012 fd=17 ACCEPT from  IP=167.94.146.55:38790 (IP=0.0.0.0:636)
+Apr 15 05:28:36 dmz-ds1 slapd[1277]: conn=2012 fd=17 TLS established tls_ssf=256 ssf=256 tls_proto=TLS1.2 tls_cipher=CHACHA20-POLY1305
+Apr 15 05:28:37 dmz-ds1 slapd[1277]: conn=2012 fd=17 closed (connection lost)
+Apr 15 05:28:39 dmz-ds1 slapd[1277]: conn=2013 fd=17 ACCEPT from  IP=167.94.146.55:55310 (IP=0.0.0.0:636)
+Apr 15 05:28:40 dmz-ds1 slapd[1277]: conn=2013 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.1 tls_cipher=AES-128-CBC
+Apr 15 05:28:41 dmz-ds1 slapd[1277]: conn=2013 fd=17 closed (connection lost)
+Apr 15 05:28:42 dmz-ds1 slapd[1277]: conn=2014 fd=17 ACCEPT from  IP=167.94.146.55:45966 (IP=0.0.0.0:636)
+Apr 15 05:28:43 dmz-ds1 slapd[1277]: conn=2014 fd=17 TLS established tls_ssf=128 ssf=128 tls_proto=TLS1.0 tls_cipher=AES-128-CBC
+Apr 15 05:28:43 dmz-ds1 slapd[1277]: conn=2014 fd=17 closed (connection lost)
+Apr 15 05:28:44 dmz-ds1 slapd[1277]: conn=2015 fd=17 ACCEPT from  IP=167.94.146.55:51790 (IP=0.0.0.0:636)
+Apr 15 05:28:44 dmz-ds1 slapd[1277]: conn=2015 fd=17 closed (TLS negotiation failure)

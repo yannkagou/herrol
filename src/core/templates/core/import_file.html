@@ -1,5 +1,7 @@
-{% extends "base.html" %} 
-{% block title %} files {% endblock title %} 
+{% extends "base.html" %}
+
+{% block title %}Import File{% endblock title %}
+
 {% block content %}
     <h1>Import File</h1>
     <form method="post" enctype="multipart/form-data">
@@ -7,5 +9,19 @@
         {{ form.as_p }}
         <button type="submit">Upload</button>
     </form>
+
+    <h2>Imported Files</h2>
+    <ul>
+        {% for file in imported_files %}
+            <li>
+                {{ file.file.name }} - Uploaded at: {{ file.uploaded_at }}
+                <form method="post" action="{% url 'core:delete_file' file.id %}" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+
     <a href="{% url 'core:home' %}">Home</a>
 {% endblock content %}

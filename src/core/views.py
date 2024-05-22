@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import get_object_or_404, render, redirect
 from django.contrib.auth.decorators import login_required
 from .forms import ImportedFileForm, ReportForm
 from .models import ImportedFile, Report
@@ -21,10 +21,17 @@ def import_file(request):
         form = ImportedFileForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect('home')
+            return redirect('core:import_file')
     else:
         form = ImportedFileForm()
-    return render(request, 'core/import_file.html', {'form': form})
+    
+    imported_files = ImportedFile.objects.all()
+    return render(request, 'core/import_file.html', {'form': form, 'imported_files': imported_files})
+
+def delete_file(request, file_id):
+    file = get_object_or_404(ImportedFile, id=file_id)
+    file.delete()
+    return redirect('core:import_file')
 
 # @login_required
 def home(request):
@@ -69,16 +76,15 @@ def home(request):
 
         return df
 
-
     def filtrer_par_date(df, date_debut, date_fin):
         current_year = datetime.now().year
         df["Date_Complète"] = df["Date"] + " " + df["Heure"] + " " + str(current_year)
-        df["Date_Complète"] = pd.to_datetime(
-            df["Date_Complète"], format="%b %d %H:%M:%S %Y"
-        )
-        print("Date_Complète column after conversion:", df["Date_Complète"])
-        mask = (df["Date_Complète"] >= date_debut) & (df["Date_Complète"] <= date_fin)
+        df["Date_Complète"] = pd.to_datetime(df["Date_Complète"], format="%b %d %H:%M:%S %Y")
+        df["Date_Complète"] = df["Date_Complète"].dt.strftime("%Y-%m-%dT%H:%M")
+        mask = (df["Date_Complète"] >= date_debut.strftime("%Y-%m-%dT%H:%M")) & (df["Date_Complète"] <= date_fin.strftime("%Y-%m-%dT%H:%M"))
         return df.loc[mask]
+    
+    
     if request.method == 'POST':
         form = ReportForm(request.POST)
         if form.is_valid():
@@ -92,8 +98,8 @@ def home(request):
 
             # Exécution du script
             data = extraire_informations(file_path, ["Date", "Heure", "IP", "Port", "Type d'Opération"])
-            date_debut = datetime.strptime(start_date, "%Y-%m-%d %H:%M:%S")
-            date_fin = datetime.strptime(end_date, "%Y-%m-%d %H:%M:%S")
+            date_debut = datetime.strptime(start_date, "%Y-%m-%dT%H:%M")
+            date_fin = datetime.strptime(end_date, "%Y-%m-%dT%H:%M")
             filtered_data = filtrer_par_date(data, date_debut, date_fin)
 
             # Génération du graphique
@@ -116,7 +122,7 @@ def home(request):
                 # Génération du PDF
                 pdf_path = os.path.join('media', 'reports', f'{report.name}.pdf')
                 pdf_response = HttpResponse(content_type='application/pdf')
-                pdf_content = render_to_string('log_analysis/report_template.html', {'report': report})
+                pdf_content = render_to_string('core/report_template.html', {'report': report})
                 pisa.CreatePDF(
                     pdf_content,
                     dest=pdf_response

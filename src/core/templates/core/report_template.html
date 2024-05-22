@@ -1,0 +1,10 @@
+{% extends "base.html" %} 
+{% block title %} notifs {% endblock title %} 
+{% block content %}
+    <div class="report-container">
+        <h1>{{ report.name }}</h1>
+        <p>{{ report.description }}</p>
+        <p>Date: {{ report.generated_at }}</p>
+        <img src="{{ report.image.url }}" class="report-image" alt="Report Image">
+    </div>
+{% endblock content %}

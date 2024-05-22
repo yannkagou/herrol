@@ -1,11 +1,12 @@
 from django.urls import path
-from .views import home_view, graph_view, files_view, notif_view
+from . import views
 
 app_name = 'core'
 
 urlpatterns = [
-    path('', home_view, name='home'),
-    path('graph/', graph_view, name='graph'),
-    path('files/', files_view, name='files'),
-    path('notifications/', notif_view, name='notifications'),
+    path('profile/', views.profile, name='profile'),
+    path('import/', views.import_file, name='import_file'),
+    path('', views.home, name='home'),
+    path('reports/', views.reports, name='reports'),
+    path('report/<int:report_id>/', views.report_detail, name='report_detail'),
 ]

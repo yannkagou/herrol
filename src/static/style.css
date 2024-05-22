@@ -4,7 +4,39 @@
 }
 
 body {
-    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .sidebar {
@@ -32,4 +64,14 @@ body {
 .sidebar a:hover{
   background-color: #555;
   color: #04AA6D;
+}
+
+.report-container {
+  width: 100%;
+  text-align: center;
+}
+.report-image {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }

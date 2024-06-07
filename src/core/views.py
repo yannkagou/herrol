@@ -51,10 +51,12 @@ def home(request):
                         valeur = re.findall(regex_date, ligne)
                         if valeur:
                             data["Date"] = valeur[0]
+                            
                     elif champ == "Heure":
                         valeur = re.findall(regex_heure, ligne)
                         if valeur:
                             data["Heure"] = valeur[0]
+                            data["Heure_Numerique"] = int(valeur[0].split(":")[0]) 
                     elif champ == "IP":
                         valeur = re.findall(regex_ip_port, ligne)
                         if valeur:
@@ -72,7 +74,7 @@ def home(request):
                     informations.append(data)
                     data = {}
 
-        df = pd.DataFrame(informations, columns=champs_extraire)
+        df = pd.DataFrame(informations, columns=champs_extraire + ["Heure_Numerique"])
 
         return df
 
@@ -83,6 +85,22 @@ def home(request):
         df["Date_Complète"] = df["Date_Complète"].dt.strftime("%Y-%m-%dT%H:%M")
         mask = (df["Date_Complète"] >= date_debut.strftime("%Y-%m-%dT%H:%M")) & (df["Date_Complète"] <= date_fin.strftime("%Y-%m-%dT%H:%M"))
         return df.loc[mask]
+    
+    def generer_graphe_connexions_par_heure(df, report_name):
+        plt.figure()
+        df_count = df["Heure_Numerique"].value_counts().sort_index()
+        df_count.plot(kind="bar")
+        plt.xlabel("Heure")
+        plt.ylabel("Nombre de connexions")
+        plt.title("Nombre de connexions par heure")
+
+        image_dir = os.path.join('media', 'reports', 'images')
+        os.makedirs(image_dir, exist_ok=True)
+        image_path = os.path.join(image_dir, f'{report_name}_par_heure.png')
+        plt.savefig(image_path)
+        plt.close()
+        
+        return image_path
     
     
     if request.method == 'POST':
@@ -119,9 +137,12 @@ def home(request):
                 plt.savefig(image_path)
                 plt.close()
 
-                # Enregistrement du rapport
+                generer_graphe_connexions_par_heure(filtered_data, form.cleaned_data["name"])
+                image_path_par_heure_media = os.path.join('reports', 'images', f'{form.cleaned_data["name"]}_par_heure.png')
+
                 report = form.save(commit=False)
                 report.image = image_path_media
+                report.image_par_heure = image_path_par_heure_media 
                 report.save()
 
                 # Génération du PDF

@@ -1,10 +1,14 @@
 {% extends "base.html" %} 
+
 {% block title %} Report details {% endblock title %} 
+
 {% block content %}
     <h1>{{ report.name }}</h1>
     <p>{{ report.description }}</p>
     <p>Date: {{ report.generated_at }}</p>
     <img src="{{ report.image.url }}" alt="Report Image">
+    <h2>Graphique des connexions par heure</h2>
+    <img src="{{ report.image_par_heure.url }}" alt="Graphique des connexions par heure">
     <a href="{{ report.file.url }}">Download PDF</a>
     <a href="{% url 'core:reports' %}">Back to Reports</a>
 {% endblock content %}

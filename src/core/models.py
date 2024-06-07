@@ -9,5 +9,6 @@ class Report(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
     generated_at = models.DateTimeField(auto_now_add=True)
-    file = models.FileField(upload_to='reports/')
-    image = models.ImageField(upload_to='reports/images/', null=True, blank=True)
+    image = models.ImageField(upload_to='reports/images/', null=True, blank=True, default='default_image.png')
+    image_par_heure = models.ImageField(upload_to='reports/images/', null=True, blank=True, default='default_image_par_heure.png')
+    file = models.FileField(upload_to='reports/files/')

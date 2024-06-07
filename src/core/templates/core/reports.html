@@ -1,13 +1,18 @@
 {% extends "base.html" %} 
-{% block title %} notifs {% endblock title %} 
+
+{% block title %} Reports {% endblock title %} 
+
 {% block content %}
- <h1>Reports</h1>
+    <h1>Reports</h1>
     <ul>
         {% for report in reports %}
             <li>
-                <a href="{% url 'core:report_details' report.id %}">{{ report.name }}</a> - {{ report.generated_at }}
+                <a href="{% url 'core:report_details' report.id %}">{{ report.name }}</a>
+                <p>{{ report.description }}</p>
+                <p>Date: {{ report.generated_at }}</p>
+                {% comment %} <img src="{{ report.image.url }}" alt="Report Image">
+                <a href="{{ report.file.url }}">Download PDF</a> {% endcomment %}
             </li>
         {% endfor %}
     </ul>
-    <a href="{% url 'core:home' %}">Home</a>
 {% endblock content %}

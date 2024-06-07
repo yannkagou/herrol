@@ -4,10 +4,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="shortcut icon" href="{% static 'favicon.ico' %}"> -->
-    <!-- <link rel="stylesheet" href="{% static 'dropzone.css' %}"> -->
-    <!-- <script src="{% static 'dropzone.js' %}" defer></script> -->
-    {% comment %} <script src="https://cdn.tailwindcss.com"></script> {% endcomment %}
     {% load bootstrap5 %}
     {% bootstrap_css %}
     {% bootstrap_javascript %}
@@ -20,6 +16,8 @@
         <p>{{ report.description }}</p>
         <p>Date: {{ report.generated_at }}</p>
         <img src="{{ report.image.url }}" class="report-image" alt="Report Image">
+        <h2>Graphique des connexions par heure</h2>
+        <img src="{{ report.image_par_heure.url }}" class="report-image" alt="Graphique des connexions par heure">
     </div>
   </body>
 </html>

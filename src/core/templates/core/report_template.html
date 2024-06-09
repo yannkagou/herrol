@@ -7,17 +7,18 @@
     {% load bootstrap5 %}
     {% bootstrap_css %}
     {% bootstrap_javascript %}
-    <link rel="stylesheet" href="{% static 'style.css' %}" />
-    <title>Report PDF</title>
+    {% comment %} <link rel="stylesheet" href="{% static 'style.css' %}" /> {% endcomment %}
+    <title>Rapport PDF</title>
   </head>
   <body>
      <div class="report-container">
-        <h1>Report {{ report.name }}</h1>
+        <h1>Rapport {{ report.name }}</h1>
         <p>{{ report.description }}</p>
         <p>Date: {{ report.generated_at }}</p>
-        <img src="{{ report.image.url }}" class="report-image" alt="Report Image">
+        <h2>Graphique des connexions par statut</h2>
+        <img src="{{ report.image.path }}" class="report-image" alt="Report Image">
         <h2>Graphique des connexions par heure</h2>
-        <img src="{{ report.image_par_heure.url }}" class="report-image" alt="Graphique des connexions par heure">
+        <img src="{{ report.image_par_heure.path }}" class="report-image" alt="Graphique des connexions par heure">
     </div>
   </body>
 </html>

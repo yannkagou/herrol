@@ -10,18 +10,18 @@
         <button type="submit">Upload</button>
     </form>
 
-    <h2>Imported Files</h2>
+    <h2>Fichiers Importés</h2>
     <ul>
         {% for file in imported_files %}
             <li>
-                {{ file.file.name }} - Uploaded at: {{ file.uploaded_at }}
+                {{ file.file.name }} - Uploadé @: {{ file.uploaded_at }}
                 <form method="post" action="{% url 'core:delete_file' file.id %}" style="display:inline;">
                     {% csrf_token %}
-                    <button type="submit">Delete</button>
+                    <button type="submit">Supprimer</button>
                 </form>
             </li>
         {% endfor %}
     </ul>
 
-    <a href="{% url 'core:home' %}">Home</a>
+    <a href="{% url 'core:home' %}">Accueil</a>
 {% endblock content %}

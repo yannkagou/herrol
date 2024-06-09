@@ -1,5 +1,4 @@
 from django.shortcuts import get_object_or_404, render, redirect
-# from django.contrib.auth.decorators import login_required
 from .forms import ImportedFileForm, ReportForm
 from .models import ImportedFile, Report
 import pandas as pd
@@ -15,7 +14,6 @@ from django.template.loader import render_to_string
 def profile(request):
     return render(request, 'core/profile.html')
 
-# @login_required
 def import_file(request):
     if request.method == 'POST':
         form = ImportedFileForm(request.POST, request.FILES)
@@ -33,7 +31,6 @@ def delete_file(request, file_id):
     file.delete()
     return redirect('core:import_file')
 
-# @login_required
 def home(request):
     def extraire_informations(fichier, champs_extraire):
         regex_date = r"[A-Z][a-z]{2}\s\d{1,2}"
@@ -106,7 +103,7 @@ def home(request):
     if request.method == 'POST':
         form = ReportForm(request.POST)
         if form.is_valid():
-            # Récupération des données pour générer le rapport
+       
             start_date = request.POST.get('start_date')
             end_date = request.POST.get('end_date')
             file_id = request.POST.get('file_id')
@@ -114,13 +111,11 @@ def home(request):
             imported_file = ImportedFile.objects.get(id=file_id)
             file_path = imported_file.file.path
 
-            # Exécution du script
             data = extraire_informations(file_path, ["Date", "Heure", "IP", "Port", "Type d'Opération"])
             date_debut = datetime.strptime(start_date, "%Y-%m-%dT%H:%M")
             date_fin = datetime.strptime(end_date, "%Y-%m-%dT%H:%M")
             filtered_data = filtrer_par_date(data, date_debut, date_fin)
 
-            # Génération du graphique
             if not filtered_data.empty:
                 plt.figure()
                 df_count = filtered_data["Type d'Opération"].value_counts()
@@ -145,7 +140,6 @@ def home(request):
                 report.image_par_heure = image_path_par_heure_media 
                 report.save()
 
-                # Génération du PDF
                 pdf_path = os.path.join('media', 'reports', f'{report.name}.pdf')
                 pdf_path_media = os.path.join('reports', f'{report.name}.pdf')
                 pdf_response = HttpResponse(content_type='application/pdf')
@@ -165,12 +159,10 @@ def home(request):
     imported_files = ImportedFile.objects.all()
     return render(request, 'core/index.html', {'form': form, 'imported_files': imported_files})
 
-# @login_required
 def reports(request):
     reports = Report.objects.all()
     return render(request, 'core/reports.html', {'reports': reports})
 
-# @login_required
 def report_details(request, report_id):
     report = Report.objects.get(id=report_id)
     return render(request, 'core/report_details.html', {'report': report})

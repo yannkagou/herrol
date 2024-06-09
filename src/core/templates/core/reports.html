@@ -10,8 +10,6 @@
                 <a href="{% url 'core:report_details' report.id %}">{{ report.name }}</a>
                 <p>{{ report.description }}</p>
                 <p>Date: {{ report.generated_at }}</p>
-                {% comment %} <img src="{{ report.image.url }}" alt="Report Image">
-                <a href="{{ report.file.url }}">Download PDF</a> {% endcomment %}
             </li>
         {% endfor %}
     </ul>
